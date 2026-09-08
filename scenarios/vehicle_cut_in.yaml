@@ -1,0 +1,35 @@
+schema_version: 1
+scenario:
+  id: vehicle_cut_in
+  name: Adjacent-lane vehicle cut-in
+  kind: vehicle_cut_in
+  description: >-
+    A slower adjacent-lane vehicle is forced into the ego lane with a target
+    post-merge TTC of roughly two seconds.
+  map: Town10HD_Opt
+  duration_s: 35
+  route_length_m: 220
+  target_speed_mps: 11.11
+  parameters:
+    warmup_active_s: 5
+    intruder_gap_m: 24
+    intruder_speed_mps: 8.33
+    trigger_ttc_s: 2.0
+    trigger_min_time_s: 2
+    fallback_trigger_s: 10
+    preferred_side: left
+    max_cut_in_lateral_separation_m: 1.75
+    terminate_on_collision: true
+  thresholds:
+    max_collisions: 0
+    max_lane_invasions: 0
+    max_abs_lateral_error_m: 1.0
+    max_offroad_duration_s: 0.1
+    min_route_completion: 0.99
+    min_ttc_s: 0.5
+    max_rms_jerk_mps3: 8.0
+    max_p95_control_latency_ms: 100
+    max_red_light_violations: 0
+    max_stop_sign_violations: 0
+    max_controller_disengagements: 0
+    min_controller_active_fraction: 0.99

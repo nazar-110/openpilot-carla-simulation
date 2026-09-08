@@ -1,0 +1,5778 @@
+{
+  "protocol": "3 second independent acceleration steps; first second excluded; identical sample counts",
+  "scope": "dry-road longitudinal actuator check, not an OpenPilot driving-quality score",
+  "metrics": {
+    "stock": {
+      "samples": 360,
+      "acceleration_rmse_mps2": 3.650667700052757,
+      "acceleration_mae_mps2": 1.975552725717479
+    },
+    "calibrated": {
+      "samples": 360,
+      "acceleration_rmse_mps2": 0.7790092806494082,
+      "acceleration_mae_mps2": 0.4707597999739249
+    }
+  },
+  "samples": [
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -2.989823721775119,
+      "speed_mps": 2.192652940750122,
+      "frame": 86702
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -2.8682082566568,
+      "speed_mps": 2.043158769607544,
+      "frame": 86703
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -2.7382142341540483,
+      "speed_mps": 1.8997455835342407,
+      "frame": 86704
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -21.31588765457447,
+      "speed_mps": 1.7628320455551147,
+      "frame": 86705
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -13.751343026634428,
+      "speed_mps": 0.6970387101173401,
+      "frame": 86706
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -0.1974701107933564,
+      "speed_mps": 0.009423645213246346,
+      "frame": 86707
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -0.08143617130613899,
+      "speed_mps": 0.0004884536028839648,
+      "frame": 86708
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -0.0263216344689163,
+      "speed_mps": 0.004524709191173315,
+      "frame": 86709
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -0.0007738560133390194,
+      "speed_mps": 0.005840381141752005,
+      "frame": 86710
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.010290310750572254,
+      "speed_mps": 0.005879956763237715,
+      "frame": 86711
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.014230084699548982,
+      "speed_mps": 0.00536591000854969,
+      "frame": 86712
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.014719578654378427,
+      "speed_mps": 0.004654271528124809,
+      "frame": 86713
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.013633497884539766,
+      "speed_mps": 0.003917851019650698,
+      "frame": 86714
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.011930639896765023,
+      "speed_mps": 0.0032356411684304476,
+      "frame": 86715
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.010104391721279747,
+      "speed_mps": 0.002638542791828513,
+      "frame": 86716
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.008376582309126917,
+      "speed_mps": 0.0021329380106180906,
+      "frame": 86717
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.00684828821277224,
+      "speed_mps": 0.0017138960538432002,
+      "frame": 86718
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.005542614199058061,
+      "speed_mps": 0.0013713588705286384,
+      "frame": 86719
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.004464562656730509,
+      "speed_mps": 0.001094157574698329,
+      "frame": 86720
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0035708945836114446,
+      "speed_mps": 0.0008709192625246942,
+      "frame": 86721
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0028528998047096703,
+      "speed_mps": 0.0006923855980858207,
+      "frame": 86722
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.01099462240459146,
+      "speed_mps": 0.0005497635575011373,
+      "frame": 86723
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 86724
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 86725
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 86726
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 86727
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 86728
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 86729
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 86730
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 86731
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 86732
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 86733
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 86734
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 86735
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 86736
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 86737
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 86738
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 86739
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 86740
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 86741
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -2.436933574731916,
+      "speed_mps": 2.736783266067505,
+      "frame": 86828
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -2.329281007758492,
+      "speed_mps": 2.6149349212646484,
+      "frame": 86829
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -2.2255873719990107,
+      "speed_mps": 2.498469114303589,
+      "frame": 86830
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -2.1265960047186074,
+      "speed_mps": 2.387188196182251,
+      "frame": 86831
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -2.0315765932267005,
+      "speed_mps": 2.2808570861816406,
+      "frame": 86832
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.9410582863763721,
+      "speed_mps": 2.179276943206787,
+      "frame": 86833
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.8542627934452294,
+      "speed_mps": 2.0822229385375977,
+      "frame": 86834
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.7716259841342519,
+      "speed_mps": 1.9895085096359253,
+      "frame": 86835
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.6924047827467463,
+      "speed_mps": 1.9009263515472412,
+      "frame": 86836
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.6169915353741486,
+      "speed_mps": 1.8163052797317505,
+      "frame": 86837
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.5446672016980396,
+      "speed_mps": 1.7354549169540405,
+      "frame": 86838
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.4758651451005658,
+      "speed_mps": 1.6582210063934326,
+      "frame": 86839
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.4098419184660242,
+      "speed_mps": 1.5844271183013916,
+      "frame": 86840
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.3470734651757712,
+      "speed_mps": 1.5139344930648804,
+      "frame": 86841
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.2868225071856314,
+      "speed_mps": 1.446580410003662,
+      "frame": 86842
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.229528080332904,
+      "speed_mps": 1.3822388648986816,
+      "frame": 86843
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.174526678938955,
+      "speed_mps": 1.3207621574401855,
+      "frame": 86844
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.1222478804038305,
+      "speed_mps": 1.262035608291626,
+      "frame": 86845
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.0720270080598282,
+      "speed_mps": 1.2059228420257568,
+      "frame": 86846
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.0243398631836098,
+      "speed_mps": 1.1523213386535645,
+      "frame": 86847
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.9784866734835855,
+      "speed_mps": 1.1011041402816772,
+      "frame": 86848
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.9349743108985459,
+      "speed_mps": 1.0521796941757202,
+      "frame": 86849
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.8931108820940575,
+      "speed_mps": 1.005430817604065,
+      "frame": 86850
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.8534200739278496,
+      "speed_mps": 0.9607750773429871,
+      "frame": 86851
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.8151939477368314,
+      "speed_mps": 0.9181039929389954,
+      "frame": 86852
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.7764756680958492,
+      "speed_mps": 0.8773441910743713,
+      "frame": 86853
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.70385495917831,
+      "speed_mps": 0.8385202884674072,
+      "frame": 86854
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.6877109216009732,
+      "speed_mps": 0.8033275008201599,
+      "frame": 86855
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.666309730943088,
+      "speed_mps": 0.7689418792724609,
+      "frame": 86856
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.6423378256360915,
+      "speed_mps": 0.7356263995170593,
+      "frame": 86857
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.6166496200709118,
+      "speed_mps": 0.7035093903541565,
+      "frame": 86858
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.5913878923582802,
+      "speed_mps": 0.6726769208908081,
+      "frame": 86859
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.5659905551609895,
+      "speed_mps": 0.6431074142456055,
+      "frame": 86860
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.5418470976320645,
+      "speed_mps": 0.6148079037666321,
+      "frame": 86861
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.5180147640945535,
+      "speed_mps": 0.5877155065536499,
+      "frame": 86862
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.4956141388190681,
+      "speed_mps": 0.5618147253990173,
+      "frame": 86863
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.47359746780880735,
+      "speed_mps": 0.5370340347290039,
+      "frame": 86864
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.4530362128234263,
+      "speed_mps": 0.5133541226387024,
+      "frame": 86865
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.4328201376429908,
+      "speed_mps": 0.4907022714614868,
+      "frame": 86866
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.41400529789080864,
+      "speed_mps": 0.4690612852573395,
+      "frame": 86867
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 2.50588614575928,
+      "speed_mps": 7.82776403427124,
+      "frame": 86954
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 2.4736192436274465,
+      "speed_mps": 7.953060626983643,
+      "frame": 86955
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 2.4465372160463703,
+      "speed_mps": 8.076744079589844,
+      "frame": 86956
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 2.4238076621618085,
+      "speed_mps": 8.199073791503906,
+      "frame": 86957
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 2.4038005357350554,
+      "speed_mps": 8.320265769958496,
+      "frame": 86958
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 2.386277474634961,
+      "speed_mps": 8.440458297729492,
+      "frame": 86959
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 2.370274782827534,
+      "speed_mps": 8.559773445129395,
+      "frame": 86960
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 2.3557068868688993,
+      "speed_mps": 8.678288459777832,
+      "frame": 86961
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 2.341878248042593,
+      "speed_mps": 8.796075820922852,
+      "frame": 86962
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 2.3289694529699614,
+      "speed_mps": 8.913171768188477,
+      "frame": 86963
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 2.316360353284056,
+      "speed_mps": 9.029621124267578,
+      "frame": 86964
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 2.3043285287427615,
+      "speed_mps": 9.145441055297852,
+      "frame": 86965
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 2.2925584971145714,
+      "speed_mps": 9.260658264160156,
+      "frame": 86966
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 2.2810797600700234,
+      "speed_mps": 9.375288009643555,
+      "frame": 86967
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 2.2696717219896554,
+      "speed_mps": 9.489343643188477,
+      "frame": 86968
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 2.2585745916241193,
+      "speed_mps": 9.602828025817871,
+      "frame": 86969
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 2.2475284395258734,
+      "speed_mps": 9.715758323669434,
+      "frame": 86970
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 2.236698003986694,
+      "speed_mps": 9.82813549041748,
+      "frame": 86971
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 2.2259000780979856,
+      "speed_mps": 9.939971923828125,
+      "frame": 86972
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.5444107302481949,
+      "speed_mps": 10.051268577575684,
+      "frame": 86973
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": -0.04228557879051833,
+      "speed_mps": 10.12848949432373,
+      "frame": 86974
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": -0.07604421378610583,
+      "speed_mps": 10.126375198364258,
+      "frame": 86975
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 7.811605636652139,
+      "speed_mps": 10.122572898864746,
+      "frame": 86976
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 5.523177536586181,
+      "speed_mps": 10.513155937194824,
+      "frame": 86977
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 4.131105296887284,
+      "speed_mps": 10.78931713104248,
+      "frame": 86978
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 3.2370829690468246,
+      "speed_mps": 10.995874404907227,
+      "frame": 86979
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 2.6509039906186493,
+      "speed_mps": 11.157732009887695,
+      "frame": 86980
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 2.239008345446673,
+      "speed_mps": 11.290279388427734,
+      "frame": 86981
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 2.0174994276806855,
+      "speed_mps": 11.40223217010498,
+      "frame": 86982
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.918441213279035,
+      "speed_mps": 11.503108978271484,
+      "frame": 86983
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.8587967353343084,
+      "speed_mps": 11.59903335571289,
+      "frame": 86984
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.8182331365150028,
+      "speed_mps": 11.691973686218262,
+      "frame": 86985
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.7910150887462533,
+      "speed_mps": 11.78288745880127,
+      "frame": 86986
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.7712776659471583,
+      "speed_mps": 11.872438430786133,
+      "frame": 86987
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.7576605559854679,
+      "speed_mps": 11.961004257202148,
+      "frame": 86988
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.746560840678714,
+      "speed_mps": 12.048887252807617,
+      "frame": 86989
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.7359962966338613,
+      "speed_mps": 12.136216163635254,
+      "frame": 86990
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.7264399966483857,
+      "speed_mps": 12.223016738891602,
+      "frame": 86991
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.7190615373869955,
+      "speed_mps": 12.309340476989746,
+      "frame": 86992
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.7122882061755007,
+      "speed_mps": 12.395293235778809,
+      "frame": 86993
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -13.824805169505176,
+      "speed_mps": 0.6957179307937622,
+      "frame": 87090
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -0.22644735844482763,
+      "speed_mps": 0.0035684220492839813,
+      "frame": 87091
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -0.0764275912432289,
+      "speed_mps": 0.008267655968666077,
+      "frame": 87092
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -0.014464263645211696,
+      "speed_mps": 0.012079519219696522,
+      "frame": 87093
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.012099248624645034,
+      "speed_mps": 0.012822100892663002,
+      "frame": 87094
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.023472578641747725,
+      "speed_mps": 0.012228338979184628,
+      "frame": 87095
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.02761462658688483,
+      "speed_mps": 0.011053143069148064,
+      "frame": 87096
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.028008318205827255,
+      "speed_mps": 0.009663303382694721,
+      "frame": 87097
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.02637160003326537,
+      "speed_mps": 0.008250945247709751,
+      "frame": 87098
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.023706014306848877,
+      "speed_mps": 0.006921411491930485,
+      "frame": 87099
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.020637738273625195,
+      "speed_mps": 0.00572756864130497,
+      "frame": 87100
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.017545576920453956,
+      "speed_mps": 0.004689732100814581,
+      "frame": 87101
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.014652047857958818,
+      "speed_mps": 0.003808853682130575,
+      "frame": 87102
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.012074277128033616,
+      "speed_mps": 0.0030740753281861544,
+      "frame": 87103
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.009853849873930298,
+      "speed_mps": 0.002469247905537486,
+      "frame": 87104
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.007975167883151476,
+      "speed_mps": 0.0019761784933507442,
+      "frame": 87105
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.006415732906606034,
+      "speed_mps": 0.0015773270279169083,
+      "frame": 87106
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.005144256421798869,
+      "speed_mps": 0.0012565801152959466,
+      "frame": 87107
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.004109318280446609,
+      "speed_mps": 0.0009994329884648323,
+      "frame": 87108
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.003274098026845156,
+      "speed_mps": 0.000794062449131161,
+      "frame": 87109
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0026058676718166986,
+      "speed_mps": 0.0006303657428361475,
+      "frame": 87110
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.002072151361742824,
+      "speed_mps": 0.0005001147510483861,
+      "frame": 87111
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.007924909291707659,
+      "speed_mps": 0.00039653139538131654,
+      "frame": 87112
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 87113
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 87114
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 87115
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 87116
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 87117
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 87118
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 87119
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 87120
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 87121
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 87122
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 87123
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 87124
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 87125
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 87126
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 87127
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 87128
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 87129
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -4.939793705431045,
+      "speed_mps": 5.353708267211914,
+      "frame": 87226
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -5.038176105146738,
+      "speed_mps": 5.1067070960998535,
+      "frame": 87227
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -6.35398878618984,
+      "speed_mps": 4.854745864868164,
+      "frame": 87228
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -5.265211788802707,
+      "speed_mps": 4.537049293518066,
+      "frame": 87229
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -4.554675386087239,
+      "speed_mps": 4.2737860679626465,
+      "frame": 87230
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -4.009890845177715,
+      "speed_mps": 4.046047210693359,
+      "frame": 87231
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -3.512779759635842,
+      "speed_mps": 3.8455452919006348,
+      "frame": 87232
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -3.2550513961518552,
+      "speed_mps": 3.6698992252349854,
+      "frame": 87233
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -3.097530310687864,
+      "speed_mps": 3.5071394443511963,
+      "frame": 87234
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -2.9688199698836435,
+      "speed_mps": 3.3522562980651855,
+      "frame": 87235
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -2.8436131423185884,
+      "speed_mps": 3.2038094997406006,
+      "frame": 87236
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -2.7207259104341524,
+      "speed_mps": 3.0616235733032227,
+      "frame": 87237
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -2.601229956831655,
+      "speed_mps": 2.9255826473236084,
+      "frame": 87238
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -2.4866184060282794,
+      "speed_mps": 2.7955172061920166,
+      "frame": 87239
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -2.3763361000373973,
+      "speed_mps": 2.6711831092834473,
+      "frame": 87240
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -2.2711053059573243,
+      "speed_mps": 2.552363395690918,
+      "frame": 87241
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -2.1700903705886785,
+      "speed_mps": 2.4388058185577393,
+      "frame": 87242
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -2.0738167223857316,
+      "speed_mps": 2.330299139022827,
+      "frame": 87243
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.9814357531774405,
+      "speed_mps": 2.226606607437134,
+      "frame": 87244
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.8934571705780276,
+      "speed_mps": 2.127533435821533,
+      "frame": 87245
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.809026043797544,
+      "speed_mps": 2.0328590869903564,
+      "frame": 87246
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.7286373661043657,
+      "speed_mps": 1.9424067735671997,
+      "frame": 87247
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.6515080157481166,
+      "speed_mps": 1.8559739589691162,
+      "frame": 87248
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.578076088892339,
+      "speed_mps": 1.77339768409729,
+      "frame": 87249
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.5076335043117188,
+      "speed_mps": 1.6944931745529175,
+      "frame": 87250
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.4405883022702635,
+      "speed_mps": 1.6191108226776123,
+      "frame": 87251
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.3762148764971232,
+      "speed_mps": 1.5470808744430542,
+      "frame": 87252
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.3150106797713252,
+      "speed_mps": 1.4782696962356567,
+      "frame": 87253
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.2562282549177475,
+      "speed_mps": 1.4125187397003174,
+      "frame": 87254
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.2003499088983627,
+      "speed_mps": 1.349707007408142,
+      "frame": 87255
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.1466785021509343,
+      "speed_mps": 1.2896891832351685,
+      "frame": 87256
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.0956759601013768,
+      "speed_mps": 1.2323548793792725,
+      "frame": 87257
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.0466606993199807,
+      "speed_mps": 1.1775709390640259,
+      "frame": 87258
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.0001140440617475,
+      "speed_mps": 1.1252377033233643,
+      "frame": 87259
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.9553518339565266,
+      "speed_mps": 1.0752317905426025,
+      "frame": 87260
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.9128859081491498,
+      "speed_mps": 1.0274640321731567,
+      "frame": 87261
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.8720177605099708,
+      "speed_mps": 0.9818196296691895,
+      "frame": 87262
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.8332629088629087,
+      "speed_mps": 0.9382186532020569,
+      "frame": 87263
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.7959507631484194,
+      "speed_mps": 0.8965553641319275,
+      "frame": 87264
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.7403759328115506,
+      "speed_mps": 0.8567577004432678,
+      "frame": 87265
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.996514196251573,
+      "speed_mps": 11.359176635742188,
+      "frame": 87362
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.9135244207451128,
+      "speed_mps": 11.459004402160645,
+      "frame": 87363
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.8598999621234116,
+      "speed_mps": 11.554682731628418,
+      "frame": 87364
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.8215588127397717,
+      "speed_mps": 11.647679328918457,
+      "frame": 87365
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.7934926127267734,
+      "speed_mps": 11.738758087158203,
+      "frame": 87366
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.7741851132638713,
+      "speed_mps": 11.828434944152832,
+      "frame": 87367
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.759661293614109,
+      "speed_mps": 11.917144775390625,
+      "frame": 87368
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.749354718101214,
+      "speed_mps": 12.005128860473633,
+      "frame": 87369
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.7393893896215609,
+      "speed_mps": 12.092597007751465,
+      "frame": 87370
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.7300737742596057,
+      "speed_mps": 12.179567337036133,
+      "frame": 87371
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.7218442513449421,
+      "speed_mps": 12.266071319580078,
+      "frame": 87372
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.7153311980359003,
+      "speed_mps": 12.352164268493652,
+      "frame": 87373
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.7090853983459455,
+      "speed_mps": 12.437932014465332,
+      "frame": 87374
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.703868874340091,
+      "speed_mps": 12.52338695526123,
+      "frame": 87375
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.6985390925196049,
+      "speed_mps": 12.60858154296875,
+      "frame": 87376
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.6938174202025627,
+      "speed_mps": 12.693509101867676,
+      "frame": 87377
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.6889272848497006,
+      "speed_mps": 12.778200149536133,
+      "frame": 87378
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.6844142956413208,
+      "speed_mps": 12.86264705657959,
+      "frame": 87379
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.679734615231768,
+      "speed_mps": 12.946867942810059,
+      "frame": 87380
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.6753543024589608,
+      "speed_mps": 13.030855178833008,
+      "frame": 87381
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.6707898588541308,
+      "speed_mps": 13.114623069763184,
+      "frame": 87382
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.666504186957352,
+      "speed_mps": 13.198163032531738,
+      "frame": 87383
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.6620739772213358,
+      "speed_mps": 13.281489372253418,
+      "frame": 87384
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.6578634685737204,
+      "speed_mps": 13.364593505859375,
+      "frame": 87385
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.6532436469176395,
+      "speed_mps": 13.447486877441406,
+      "frame": 87386
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.6479831231196356,
+      "speed_mps": 13.530149459838867,
+      "frame": 87387
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.6420672761083515,
+      "speed_mps": 13.612548828125,
+      "frame": 87388
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.6358710665223477,
+      "speed_mps": 13.694653511047363,
+      "frame": 87389
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.629708628645147,
+      "speed_mps": 13.776447296142578,
+      "frame": 87390
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.6236634737466515,
+      "speed_mps": 13.857933044433594,
+      "frame": 87391
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.617349678087943,
+      "speed_mps": 13.939116477966309,
+      "frame": 87392
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.6111513402281583,
+      "speed_mps": 14.019984245300293,
+      "frame": 87393
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.605257201074826,
+      "speed_mps": 14.100543022155762,
+      "frame": 87394
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.5997645512012835,
+      "speed_mps": 14.180806159973145,
+      "frame": 87395
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.5947097703811817,
+      "speed_mps": 14.260794639587402,
+      "frame": 87396
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.5900179794001932,
+      "speed_mps": 14.340530395507812,
+      "frame": 87397
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.5855547890355188,
+      "speed_mps": 14.420031547546387,
+      "frame": 87398
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.5814160109182842,
+      "speed_mps": 14.499310493469238,
+      "frame": 87399
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.577448776620792,
+      "speed_mps": 14.578381538391113,
+      "frame": 87400
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.5735196777969438,
+      "speed_mps": 14.657254219055176,
+      "frame": 87401
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -4.678773935147816,
+      "speed_mps": 8.354741096496582,
+      "frame": 87511
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -5.611197633228091,
+      "speed_mps": 8.120787620544434,
+      "frame": 87512
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -4.337243915914855,
+      "speed_mps": 7.840210914611816,
+      "frame": 87513
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -3.301889491619308,
+      "speed_mps": 7.623336315155029,
+      "frame": 87514
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -0.9377370332928161,
+      "speed_mps": 7.458232402801514,
+      "frame": 87515
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -6.901770970063951,
+      "speed_mps": 7.411343097686768,
+      "frame": 87516
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -12.734945430883661,
+      "speed_mps": 7.066239833831787,
+      "frame": 87517
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -9.69567693279235,
+      "speed_mps": 6.42946720123291,
+      "frame": 87518
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -7.413172261047394,
+      "speed_mps": 5.944657802581787,
+      "frame": 87519
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -19.759240438950677,
+      "speed_mps": 5.573972702026367,
+      "frame": 87520
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -22.74729852667315,
+      "speed_mps": 4.585872173309326,
+      "frame": 87521
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -22.84072231653283,
+      "speed_mps": 3.4484105110168457,
+      "frame": 87522
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -22.684019369525785,
+      "speed_mps": 2.306196928024292,
+      "frame": 87523
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -23.087654666788346,
+      "speed_mps": 1.1719993352890015,
+      "frame": 87524
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -0.4442582953815175,
+      "speed_mps": 0.017966175451874733,
+      "frame": 87525
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -0.1167720786213965,
+      "speed_mps": 0.005568839609622955,
+      "frame": 87526
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -0.031220475134960176,
+      "speed_mps": 0.011338640935719013,
+      "frame": 87527
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.004886785916114719,
+      "speed_mps": 0.012916019186377525,
+      "frame": 87528
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.020521461030378746,
+      "speed_mps": 0.01268681325018406,
+      "frame": 87529
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.026815131800804453,
+      "speed_mps": 0.011663531884551048,
+      "frame": 87530
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.028376829960008038,
+      "speed_mps": 0.010315148159861565,
+      "frame": 87531
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.02738029107333682,
+      "speed_mps": 0.008884718641638756,
+      "frame": 87532
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.02502858241210651,
+      "speed_mps": 0.007503752131015062,
+      "frame": 87533
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.022052210469863616,
+      "speed_mps": 0.006242902483791113,
+      "frame": 87534
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.01892192489445142,
+      "speed_mps": 0.0051331957802176476,
+      "frame": 87535
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.015914134471002338,
+      "speed_mps": 0.004182618577033281,
+      "frame": 87536
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.013186720496311926,
+      "speed_mps": 0.0033842551056295633,
+      "frame": 87537
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.010798896823566873,
+      "speed_mps": 0.002723510842770338,
+      "frame": 87538
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.008768804411083918,
+      "speed_mps": 0.002183031290769577,
+      "frame": 87539
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.007073176942602391,
+      "speed_mps": 0.001744415145367384,
+      "frame": 87540
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.005679982958697174,
+      "speed_mps": 0.0013907751999795437,
+      "frame": 87541
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.004542844864770885,
+      "speed_mps": 0.0011068800231441855,
+      "frame": 87542
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0036234299337064486,
+      "speed_mps": 0.0008797957561910152,
+      "frame": 87543
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0028846760043511758,
+      "speed_mps": 0.0006986669031903148,
+      "frame": 87544
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.00229456952502557,
+      "speed_mps": 0.0005544877494685352,
+      "frame": 87545
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0018227943679982252,
+      "speed_mps": 0.00043979284237138927,
+      "frame": 87546
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.006967086031858868,
+      "speed_mps": 0.0003486390633042902,
+      "frame": 87547
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 87548
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 87549
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.0,
+      "speed_mps": 0.0,
+      "frame": 87550
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -6.485347260477549,
+      "speed_mps": 9.812378883361816,
+      "frame": 87660
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -5.571396759231035,
+      "speed_mps": 9.488101959228516,
+      "frame": 87661
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -5.028660035014585,
+      "speed_mps": 9.20952033996582,
+      "frame": 87662
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -4.764713267293908,
+      "speed_mps": 8.958075523376465,
+      "frame": 87663
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -4.563101618419388,
+      "speed_mps": 8.719828605651855,
+      "frame": 87664
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -4.406179629555717,
+      "speed_mps": 8.491662979125977,
+      "frame": 87665
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -4.2715603862419265,
+      "speed_mps": 8.271343231201172,
+      "frame": 87666
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -4.158024755568622,
+      "speed_mps": 8.057755470275879,
+      "frame": 87667
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -4.0528588629874225,
+      "speed_mps": 7.849844455718994,
+      "frame": 87668
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -3.9595024320620946,
+      "speed_mps": 7.64719295501709,
+      "frame": 87669
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -3.868354835369802,
+      "speed_mps": 7.449209690093994,
+      "frame": 87670
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.8363706491567935,
+      "speed_mps": 7.255784511566162,
+      "frame": 87671
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.05481766997481905,
+      "speed_mps": 7.213964462280273,
+      "frame": 87672
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -7.5382060173421825,
+      "speed_mps": 7.211223602294922,
+      "frame": 87673
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -11.47865001083767,
+      "speed_mps": 6.834303855895996,
+      "frame": 87674
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -8.639364910379847,
+      "speed_mps": 6.2603583335876465,
+      "frame": 87675
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -6.492728638222418,
+      "speed_mps": 5.828374862670898,
+      "frame": 87676
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -5.4942779500354915,
+      "speed_mps": 5.503722190856934,
+      "frame": 87677
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -3.9078576534881377,
+      "speed_mps": 5.228992462158203,
+      "frame": 87678
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -6.227866329849743,
+      "speed_mps": 5.03358793258667,
+      "frame": 87679
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -5.897719841755797,
+      "speed_mps": 4.722142219543457,
+      "frame": 87680
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -4.9638809144486435,
+      "speed_mps": 4.427255630493164,
+      "frame": 87681
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -4.344606941717431,
+      "speed_mps": 4.179056644439697,
+      "frame": 87682
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -3.8019472612514367,
+      "speed_mps": 3.9618191719055176,
+      "frame": 87683
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -3.3707521122923683,
+      "speed_mps": 3.771713972091675,
+      "frame": 87684
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -3.191363877722944,
+      "speed_mps": 3.6031687259674072,
+      "frame": 87685
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -3.04435749974893,
+      "speed_mps": 3.4435932636260986,
+      "frame": 87686
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -2.9185508232321045,
+      "speed_mps": 3.2913687229156494,
+      "frame": 87687
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -2.7934439857270643,
+      "speed_mps": 3.145435094833374,
+      "frame": 87688
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -2.6717614479744896,
+      "speed_mps": 3.0057578086853027,
+      "frame": 87689
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -2.5540037479551185,
+      "speed_mps": 2.8721656799316406,
+      "frame": 87690
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -2.441276816407119,
+      "speed_mps": 2.7444615364074707,
+      "frame": 87691
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -2.3329336863746275,
+      "speed_mps": 2.622394561767578,
+      "frame": 87692
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -2.229579091542633,
+      "speed_mps": 2.5057451725006104,
+      "frame": 87693
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -2.130388307166188,
+      "speed_mps": 2.394263982772827,
+      "frame": 87694
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -2.0358568707155382,
+      "speed_mps": 2.2877426147460938,
+      "frame": 87695
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.9451948537978574,
+      "speed_mps": 2.185948133468628,
+      "frame": 87696
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.8588160453359388,
+      "speed_mps": 2.088686943054199,
+      "frame": 87697
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.775930156745899,
+      "speed_mps": 1.9957449436187744,
+      "frame": 87698
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.6970193983659954,
+      "speed_mps": 1.906947374343872,
+      "frame": 87699
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.5896353449085991,
+      "speed_mps": 14.304883003234863,
+      "frame": 87809
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.5858207716991928,
+      "speed_mps": 14.38436508178711,
+      "frame": 87810
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.5819684976203834,
+      "speed_mps": 14.463656425476074,
+      "frame": 87811
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.5782490571558343,
+      "speed_mps": 14.542755126953125,
+      "frame": 87812
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.5745683199686802,
+      "speed_mps": 14.621668815612793,
+      "frame": 87813
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.570925463229291,
+      "speed_mps": 14.700396537780762,
+      "frame": 87814
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.5672256572027783,
+      "speed_mps": 14.77894401550293,
+      "frame": 87815
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.5636014802923488,
+      "speed_mps": 14.857305526733398,
+      "frame": 87816
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.5599205262243847,
+      "speed_mps": 14.93548583984375,
+      "frame": 87817
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.5562967111729726,
+      "speed_mps": 15.013483047485352,
+      "frame": 87818
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.5526156468284178,
+      "speed_mps": 15.09129810333252,
+      "frame": 87819
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.5490108328583538,
+      "speed_mps": 15.168929100036621,
+      "frame": 87820
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.5452915536981267,
+      "speed_mps": 15.246379852294922,
+      "frame": 87821
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.54170582742284,
+      "speed_mps": 15.32364559173584,
+      "frame": 87822
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.538062797799434,
+      "speed_mps": 15.400731086730957,
+      "frame": 87823
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.5344199909221452,
+      "speed_mps": 15.47763442993164,
+      "frame": 87824
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.5308341225251347,
+      "speed_mps": 15.55435562133789,
+      "frame": 87825
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.5271721579061464,
+      "speed_mps": 15.630897521972656,
+      "frame": 87826
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.523605467746415,
+      "speed_mps": 15.707257270812988,
+      "frame": 87827
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.5199242683297745,
+      "speed_mps": 15.783437728881836,
+      "frame": 87828
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.516376794265476,
+      "speed_mps": 15.859434127807617,
+      "frame": 87829
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.5126957812748454,
+      "speed_mps": 15.935253143310547,
+      "frame": 87830
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.5092048619903102,
+      "speed_mps": 16.010889053344727,
+      "frame": 87831
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.5055434680949582,
+      "speed_mps": 16.086349487304688,
+      "frame": 87832
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.5019952006581774,
+      "speed_mps": 16.1616268157959,
+      "frame": 87833
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.498410012841986,
+      "speed_mps": 16.236726760864258,
+      "frame": 87834
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.4948239421515828,
+      "speed_mps": 16.311647415161133,
+      "frame": 87835
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.4912762532410009,
+      "speed_mps": 16.386388778686523,
+      "frame": 87836
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.4876905009519394,
+      "speed_mps": 16.460952758789062,
+      "frame": 87837
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.4841810757656768,
+      "speed_mps": 16.53533935546875,
+      "frame": 87838
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.480595247775759,
+      "speed_mps": 16.609546661376953,
+      "frame": 87839
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.4770857837752813,
+      "speed_mps": 16.683578491210938,
+      "frame": 87840
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.3023148076285855,
+      "speed_mps": 16.757431030273438,
+      "frame": 87841
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": -0.07240157306420716,
+      "speed_mps": 16.77254867553711,
+      "frame": 87842
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.7758165543190374,
+      "speed_mps": 16.7689266204834,
+      "frame": 87843
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 3.42666443277088,
+      "speed_mps": 16.85771942138672,
+      "frame": 87844
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 2.663227088774166,
+      "speed_mps": 17.029052734375,
+      "frame": 87845
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 2.1754778617003767,
+      "speed_mps": 17.162214279174805,
+      "frame": 87846
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.8555003362607292,
+      "speed_mps": 17.2709903717041,
+      "frame": 87847
+    },
+    {
+      "mode": "stock",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.6454634475807348,
+      "speed_mps": 17.3637638092041,
+      "frame": 87848
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.4800084361596515,
+      "speed_mps": 4.191553592681885,
+      "frame": 87935
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.4620175005760008,
+      "speed_mps": 4.117553234100342,
+      "frame": 87936
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.4431710566535214,
+      "speed_mps": 4.044451713562012,
+      "frame": 87937
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.4281465101264348,
+      "speed_mps": 3.972292900085449,
+      "frame": 87938
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.4176357207540795,
+      "speed_mps": 3.9008851051330566,
+      "frame": 87939
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.4102455221371393,
+      "speed_mps": 3.830003023147583,
+      "frame": 87940
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.4043269594961743,
+      "speed_mps": 3.7594902515411377,
+      "frame": 87941
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.3996785908486877,
+      "speed_mps": 3.6892738342285156,
+      "frame": 87942
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.395362422837318,
+      "speed_mps": 3.6192893981933594,
+      "frame": 87943
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.3917057602334246,
+      "speed_mps": 3.549520969390869,
+      "frame": 87944
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.3878427462298495,
+      "speed_mps": 3.47993540763855,
+      "frame": 87945
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.384519931013913,
+      "speed_mps": 3.4105429649353027,
+      "frame": 87946
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.3807759331864429,
+      "speed_mps": 3.3413166999816895,
+      "frame": 87947
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.3775822570710663,
+      "speed_mps": 3.27227783203125,
+      "frame": 87948
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.3738376190514636,
+      "speed_mps": 3.2033982276916504,
+      "frame": 87949
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.3706777715064804,
+      "speed_mps": 3.1347060203552246,
+      "frame": 87950
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.3668804438820137,
+      "speed_mps": 3.0661721229553223,
+      "frame": 87951
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.3637446104612638,
+      "speed_mps": 2.9978277683258057,
+      "frame": 87952
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.3598139353808332,
+      "speed_mps": 2.929640054702759,
+      "frame": 87953
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.356606371308314,
+      "speed_mps": 2.86164927482605,
+      "frame": 87954
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.3526039101344265,
+      "speed_mps": 2.793818712234497,
+      "frame": 87955
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.349334901836999,
+      "speed_mps": 2.7261881828308105,
+      "frame": 87956
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.3450886304622616,
+      "speed_mps": 2.6587212085723877,
+      "frame": 87957
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.3417009399007307,
+      "speed_mps": 2.5914666652679443,
+      "frame": 87958
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.3365818207738618,
+      "speed_mps": 2.524381399154663,
+      "frame": 87959
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.328559634361948,
+      "speed_mps": 2.457551956176758,
+      "frame": 87960
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.3169214070347615,
+      "speed_mps": 2.3911237716674805,
+      "frame": 87961
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.3059769111662125,
+      "speed_mps": 2.325277328491211,
+      "frame": 87962
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.2938994992426889,
+      "speed_mps": 2.2599785327911377,
+      "frame": 87963
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.2833943186333858,
+      "speed_mps": 2.1952831745147705,
+      "frame": 87964
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.2720882445110908,
+      "speed_mps": 2.131113290786743,
+      "frame": 87965
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.2627051718576399,
+      "speed_mps": 2.0675086975097656,
+      "frame": 87966
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.2523126167776784,
+      "speed_mps": 2.004373073577881,
+      "frame": 87967
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.2397855081151652,
+      "speed_mps": 1.941757321357727,
+      "frame": 87968
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.2189891024196007,
+      "speed_mps": 1.879767894744873,
+      "frame": 87969
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.1954731158269076,
+      "speed_mps": 1.818818211555481,
+      "frame": 87970
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.1672897294151168,
+      "speed_mps": 1.7590444087982178,
+      "frame": 87971
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.1394792075707372,
+      "speed_mps": 1.7006797790527344,
+      "frame": 87972
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.1088680738167462,
+      "speed_mps": 1.6437056064605713,
+      "frame": 87973
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.0797293698411694,
+      "speed_mps": 1.5882620811462402,
+      "frame": 87974
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.805066748014339,
+      "speed_mps": 5.120460033416748,
+      "frame": 88061
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.6676190167559564,
+      "speed_mps": 5.080206871032715,
+      "frame": 88062
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.5317109002605199,
+      "speed_mps": 5.046825885772705,
+      "frame": 88063
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.4107392627058333,
+      "speed_mps": 5.020240783691406,
+      "frame": 88064
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": 7.277919338728703,
+      "speed_mps": 4.999703884124756,
+      "frame": 88065
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": 0.3992031784889364,
+      "speed_mps": 5.36359977722168,
+      "frame": 88066
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.182114403337647,
+      "speed_mps": 5.383559703826904,
+      "frame": 88067
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -1.0744413885363113,
+      "speed_mps": 5.324453830718994,
+      "frame": 88068
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.9878022525049056,
+      "speed_mps": 5.2707319259643555,
+      "frame": 88069
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.8807648600599655,
+      "speed_mps": 5.221341609954834,
+      "frame": 88070
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.7742312379732698,
+      "speed_mps": 5.177303314208984,
+      "frame": 88071
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.6517636904232667,
+      "speed_mps": 5.13859224319458,
+      "frame": 88072
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.5340292609885442,
+      "speed_mps": 5.106004238128662,
+      "frame": 88073
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.4109469974527242,
+      "speed_mps": 5.079302787780762,
+      "frame": 88074
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.30512567104361404,
+      "speed_mps": 5.058755397796631,
+      "frame": 88075
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.2020816176666136,
+      "speed_mps": 5.04349946975708,
+      "frame": 88076
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.11591054402400751,
+      "speed_mps": 5.033395290374756,
+      "frame": 88077
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.03279958594873481,
+      "speed_mps": 5.027599811553955,
+      "frame": 88078
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": 0.03364112805651675,
+      "speed_mps": 5.025960445404053,
+      "frame": 88079
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": 0.09798438415831577,
+      "speed_mps": 5.027642726898193,
+      "frame": 88080
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": 0.14621768098213428,
+      "speed_mps": 5.032541751861572,
+      "frame": 88081
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": 0.19262531207738448,
+      "speed_mps": 5.039852619171143,
+      "frame": 88082
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": 0.2208364783209548,
+      "speed_mps": 5.049483776092529,
+      "frame": 88083
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": 0.2425491521474048,
+      "speed_mps": 5.060525894165039,
+      "frame": 88084
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": 0.24593859639314647,
+      "speed_mps": 5.072653293609619,
+      "frame": 88085
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": 0.24657341811418163,
+      "speed_mps": 5.0849504470825195,
+      "frame": 88086
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": 0.2330352452609859,
+      "speed_mps": 5.097279071807861,
+      "frame": 88087
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": 0.2229987609223179,
+      "speed_mps": 5.108931064605713,
+      "frame": 88088
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": 0.20394727278327626,
+      "speed_mps": 5.120080947875977,
+      "frame": 88089
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": 0.1852241580825624,
+      "speed_mps": 5.130278587341309,
+      "frame": 88090
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": 0.15889429621606208,
+      "speed_mps": 5.13953971862793,
+      "frame": 88091
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": 0.13955325350312686,
+      "speed_mps": 5.14748477935791,
+      "frame": 88092
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": 0.11458513400551651,
+      "speed_mps": 5.1544623374938965,
+      "frame": 88093
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": 0.09770652451951552,
+      "speed_mps": 5.160191535949707,
+      "frame": 88094
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": 0.07610307280833854,
+      "speed_mps": 5.165077209472656,
+      "frame": 88095
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": 0.06342230930274224,
+      "speed_mps": 5.168882369995117,
+      "frame": 88096
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": 0.045784880421848057,
+      "speed_mps": 5.172053337097168,
+      "frame": 88097
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": 0.03712975998572662,
+      "speed_mps": 5.174342632293701,
+      "frame": 88098
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": 0.023735270017614996,
+      "speed_mps": 5.176199436187744,
+      "frame": 88099
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 0.0,
+      "measured_mps2": 0.018847915237517342,
+      "speed_mps": 5.177386283874512,
+      "frame": 88100
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 3.6627192008088008,
+      "speed_mps": 6.363468170166016,
+      "frame": 88187
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 2.51885490424847,
+      "speed_mps": 6.546604633331299,
+      "frame": 88188
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 2.520021828973021,
+      "speed_mps": 6.672548294067383,
+      "frame": 88189
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.6042601825877265,
+      "speed_mps": 6.798551082611084,
+      "frame": 88190
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.8872802731490665,
+      "speed_mps": 6.878764629364014,
+      "frame": 88191
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.0745697313040332,
+      "speed_mps": 6.973130226135254,
+      "frame": 88192
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.5102220669110145,
+      "speed_mps": 7.026858806610107,
+      "frame": 88193
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.762371229852862,
+      "speed_mps": 7.102370738983154,
+      "frame": 88194
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.286059818636608,
+      "speed_mps": 7.14048957824707,
+      "frame": 88195
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.5794927009335581,
+      "speed_mps": 7.2047929763793945,
+      "frame": 88196
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.1515727688158028,
+      "speed_mps": 7.233767509460449,
+      "frame": 88197
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.47126895698772403,
+      "speed_mps": 7.291347026824951,
+      "frame": 88198
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.0683937206656178,
+      "speed_mps": 7.314910411834717,
+      "frame": 88199
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.4047209825474268,
+      "speed_mps": 7.368330001831055,
+      "frame": 88200
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 1.0135766311582024,
+      "speed_mps": 7.388566493988037,
+      "frame": 88201
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.3604414300000644,
+      "speed_mps": 7.439245223999023,
+      "frame": 88202
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.9740945878459332,
+      "speed_mps": 7.4572672843933105,
+      "frame": 88203
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.32776826297279427,
+      "speed_mps": 7.505972385406494,
+      "frame": 88204
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.942747049383391,
+      "speed_mps": 7.522360801696777,
+      "frame": 88205
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.3011888920738837,
+      "speed_mps": 7.569498062133789,
+      "frame": 88206
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.9158053132063237,
+      "speed_mps": 7.58455753326416,
+      "frame": 88207
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.27793787702064665,
+      "speed_mps": 7.630347728729248,
+      "frame": 88208
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.8915911380332558,
+      "speed_mps": 7.64424467086792,
+      "frame": 88209
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.2568324600961586,
+      "speed_mps": 7.688824653625488,
+      "frame": 88210
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.8693699496989579,
+      "speed_mps": 7.701665878295898,
+      "frame": 88211
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.2374342426148741,
+      "speed_mps": 7.745134353637695,
+      "frame": 88212
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.8488176947714391,
+      "speed_mps": 7.7570061683654785,
+      "frame": 88213
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.21957140633501337,
+      "speed_mps": 7.799447536468506,
+      "frame": 88214
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.8298009389682465,
+      "speed_mps": 7.810425758361816,
+      "frame": 88215
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.20319630961157853,
+      "speed_mps": 7.8519158363342285,
+      "frame": 88216
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.8122623446306062,
+      "speed_mps": 7.8620758056640625,
+      "frame": 88217
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.18823269716739577,
+      "speed_mps": 7.902688980102539,
+      "frame": 88218
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7962211134835313,
+      "speed_mps": 7.912100315093994,
+      "frame": 88219
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.174613687849764,
+      "speed_mps": 7.951911449432373,
+      "frame": 88220
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7814768022555829,
+      "speed_mps": 7.960642337799072,
+      "frame": 88221
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.16237774445293324,
+      "speed_mps": 7.999715805053711,
+      "frame": 88222
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7683824697538866,
+      "speed_mps": 8.007834434509277,
+      "frame": 88223
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.15476718165428124,
+      "speed_mps": 8.04625415802002,
+      "frame": 88224
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7646249151918986,
+      "speed_mps": 8.05399227142334,
+      "frame": 88225
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 5.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.15753296860243984,
+      "speed_mps": 8.09222412109375,
+      "frame": 88226
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.782675076113831,
+      "speed_mps": 7.372331142425537,
+      "frame": 88323
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.7473091989453506,
+      "speed_mps": 7.283196926116943,
+      "frame": 88324
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.7176716107305203,
+      "speed_mps": 7.195830821990967,
+      "frame": 88325
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.6863031580580212,
+      "speed_mps": 7.109947204589844,
+      "frame": 88326
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.660498690978411,
+      "speed_mps": 7.025631427764893,
+      "frame": 88327
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.6322977407107635,
+      "speed_mps": 6.942605972290039,
+      "frame": 88328
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.6094289139210993,
+      "speed_mps": 6.86099100112915,
+      "frame": 88329
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.5836997165725166,
+      "speed_mps": 6.780519008636475,
+      "frame": 88330
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.5632039621334874,
+      "speed_mps": 6.701333522796631,
+      "frame": 88331
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.5394127495767538,
+      "speed_mps": 6.623173236846924,
+      "frame": 88332
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.520793720887755,
+      "speed_mps": 6.546202182769775,
+      "frame": 88333
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.498482791810322,
+      "speed_mps": 6.4701619148254395,
+      "frame": 88334
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.481339679215828,
+      "speed_mps": 6.395237445831299,
+      "frame": 88335
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.4602706900340483,
+      "speed_mps": 6.321170330047607,
+      "frame": 88336
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.4443749259336474,
+      "speed_mps": 6.248156547546387,
+      "frame": 88337
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.4243095824998357,
+      "speed_mps": 6.175937652587891,
+      "frame": 88338
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.409546069158542,
+      "speed_mps": 6.104721546173096,
+      "frame": 88339
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.3905416006126483,
+      "speed_mps": 6.034244537353516,
+      "frame": 88340
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.3770252780617451,
+      "speed_mps": 5.964716911315918,
+      "frame": 88341
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.3584618257868877,
+      "speed_mps": 5.895865440368652,
+      "frame": 88342
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.3453531491455266,
+      "speed_mps": 5.827942371368408,
+      "frame": 88343
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.3275455719449878,
+      "speed_mps": 5.760674476623535,
+      "frame": 88344
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.31516842201699,
+      "speed_mps": 5.6942973136901855,
+      "frame": 88345
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.2979740240173039,
+      "speed_mps": 5.628538608551025,
+      "frame": 88346
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.2863856773641908,
+      "speed_mps": 5.5636396408081055,
+      "frame": 88347
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.2696807159092627,
+      "speed_mps": 5.499320030212402,
+      "frame": 88348
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.2587184429219194,
+      "speed_mps": 5.435836315155029,
+      "frame": 88349
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.2425985076536878,
+      "speed_mps": 5.372900485992432,
+      "frame": 88350
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.232224461673378,
+      "speed_mps": 5.310770034790039,
+      "frame": 88351
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.2164030314279572,
+      "speed_mps": 5.24915885925293,
+      "frame": 88352
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.2065695544869222,
+      "speed_mps": 5.188338756561279,
+      "frame": 88353
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.191132932086337,
+      "speed_mps": 5.128010272979736,
+      "frame": 88354
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.1817919509808403,
+      "speed_mps": 5.068453788757324,
+      "frame": 88355
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 1.3811123746915206,
+      "speed_mps": 5.009364128112793,
+      "frame": 88356
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -0.8472310510952846,
+      "speed_mps": 5.078421592712402,
+      "frame": 88357
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -0.048449257979743574,
+      "speed_mps": 5.036059379577637,
+      "frame": 88358
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -4.848504713517302,
+      "speed_mps": 5.033637046813965,
+      "frame": 88359
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -4.650302504221977,
+      "speed_mps": 4.7912068367004395,
+      "frame": 88360
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -3.1358818280824647,
+      "speed_mps": 4.558693885803223,
+      "frame": 88361
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -2.2287086884160376,
+      "speed_mps": 4.401901721954346,
+      "frame": 88362
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.8162511590566849,
+      "speed_mps": 8.257325172424316,
+      "frame": 88459
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.792139709303818,
+      "speed_mps": 8.216512680053711,
+      "frame": 88460
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.7722676802635674,
+      "speed_mps": 8.176905632019043,
+      "frame": 88461
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.7507690590654135,
+      "speed_mps": 8.13829231262207,
+      "frame": 88462
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.733376753041053,
+      "speed_mps": 8.100753784179688,
+      "frame": 88463
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.714128950847274,
+      "speed_mps": 8.064085006713867,
+      "frame": 88464
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.6987678133559602,
+      "speed_mps": 8.0283784866333,
+      "frame": 88465
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.6811413049103099,
+      "speed_mps": 7.993439674377441,
+      "frame": 88466
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.6664667796294278,
+      "speed_mps": 7.959383010864258,
+      "frame": 88467
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.6481062896694469,
+      "speed_mps": 7.926059246063232,
+      "frame": 88468
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.6336889036052894,
+      "speed_mps": 7.893653869628906,
+      "frame": 88469
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.6161773797757305,
+      "speed_mps": 7.861969470977783,
+      "frame": 88470
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.5994804483436001,
+      "speed_mps": 7.831160545349121,
+      "frame": 88471
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.5798616150471323,
+      "speed_mps": 7.801186561584473,
+      "frame": 88472
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.5636890934667652,
+      "speed_mps": 7.772193431854248,
+      "frame": 88473
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.5446328948089306,
+      "speed_mps": 7.744009017944336,
+      "frame": 88474
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.5291278057239714,
+      "speed_mps": 7.716777324676514,
+      "frame": 88475
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.5107777232303466,
+      "speed_mps": 7.69032096862793,
+      "frame": 88476
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.496082873388319,
+      "speed_mps": 7.6647820472717285,
+      "frame": 88477
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.4784100325913479,
+      "speed_mps": 7.63997745513916,
+      "frame": 88478
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.464535336345339,
+      "speed_mps": 7.6160569190979,
+      "frame": 88479
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.4477018054022059,
+      "speed_mps": 7.592830181121826,
+      "frame": 88480
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.43456118971317076,
+      "speed_mps": 7.570445537567139,
+      "frame": 88481
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.4184813008525631,
+      "speed_mps": 7.548717498779297,
+      "frame": 88482
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.40617982301129896,
+      "speed_mps": 7.5277934074401855,
+      "frame": 88483
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.3907580536761337,
+      "speed_mps": 7.507484436035156,
+      "frame": 88484
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.37923838734448123,
+      "speed_mps": 7.487946510314941,
+      "frame": 88485
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.3645607894770096,
+      "speed_mps": 7.468984603881836,
+      "frame": 88486
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.35376568654626006,
+      "speed_mps": 7.450756549835205,
+      "frame": 88487
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.33974615071394487,
+      "speed_mps": 7.433067798614502,
+      "frame": 88488
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.32969496041522234,
+      "speed_mps": 7.416080474853516,
+      "frame": 88489
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.31638116088337714,
+      "speed_mps": 7.399596214294434,
+      "frame": 88490
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.30696876815186586,
+      "speed_mps": 7.383777141571045,
+      "frame": 88491
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.29428459414240066,
+      "speed_mps": 7.368428707122803,
+      "frame": 88492
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.28556829964166974,
+      "speed_mps": 7.3537139892578125,
+      "frame": 88493
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.27352311015911634,
+      "speed_mps": 7.339435577392578,
+      "frame": 88494
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.2654170649666588,
+      "speed_mps": 7.325759410858154,
+      "frame": 88495
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.2539823594697322,
+      "speed_mps": 7.312488555908203,
+      "frame": 88496
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.24649614247703036,
+      "speed_mps": 7.299789905548096,
+      "frame": 88497
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.23567184439212327,
+      "speed_mps": 7.287464618682861,
+      "frame": 88498
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.34616123547971983,
+      "speed_mps": 9.221457481384277,
+      "frame": 88595
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.36188736199345867,
+      "speed_mps": 9.238764762878418,
+      "frame": 88596
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.37435162578918857,
+      "speed_mps": 9.25685977935791,
+      "frame": 88597
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.38769408973903446,
+      "speed_mps": 9.275577545166016,
+      "frame": 88598
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.39683918041409544,
+      "speed_mps": 9.294961929321289,
+      "frame": 88599
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.40707281338598506,
+      "speed_mps": 9.314804077148438,
+      "frame": 88600
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.4168090333697108,
+      "speed_mps": 9.33515739440918,
+      "frame": 88601
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.42774867104611886,
+      "speed_mps": 9.355998039245605,
+      "frame": 88602
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.4361876066739696,
+      "speed_mps": 9.377385139465332,
+      "frame": 88603
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.44611647415379224,
+      "speed_mps": 9.399194717407227,
+      "frame": 88604
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.45375425679008907,
+      "speed_mps": 9.421500205993652,
+      "frame": 88605
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.4629775787320083,
+      "speed_mps": 9.444188117980957,
+      "frame": 88606
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.4700810529038954,
+      "speed_mps": 9.467336654663086,
+      "frame": 88607
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.47882766326522874,
+      "speed_mps": 9.490840911865234,
+      "frame": 88608
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.4850537209290844,
+      "speed_mps": 9.514781951904297,
+      "frame": 88609
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.4921792176870523,
+      "speed_mps": 9.539034843444824,
+      "frame": 88610
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.49676471474185896,
+      "speed_mps": 9.563643455505371,
+      "frame": 88611
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.5027459787742964,
+      "speed_mps": 9.588481903076172,
+      "frame": 88612
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.5064731581848585,
+      "speed_mps": 9.613619804382324,
+      "frame": 88613
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.5118249659610914,
+      "speed_mps": 9.63894271850586,
+      "frame": 88614
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.5151323846236652,
+      "speed_mps": 9.664534568786621,
+      "frame": 88615
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.5201601598326947,
+      "speed_mps": 9.690291404724121,
+      "frame": 88616
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.5232767867956959,
+      "speed_mps": 9.716299057006836,
+      "frame": 88617
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.5281518559539345,
+      "speed_mps": 9.742462158203125,
+      "frame": 88618
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.5312113186854845,
+      "speed_mps": 9.76887035369873,
+      "frame": 88619
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.53599119621816,
+      "speed_mps": 9.795431137084961,
+      "frame": 88620
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.539050509436605,
+      "speed_mps": 9.822230339050293,
+      "frame": 88621
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.5437921519727446,
+      "speed_mps": 9.849183082580566,
+      "frame": 88622
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.5468896391614051,
+      "speed_mps": 9.876372337341309,
+      "frame": 88623
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.5516124150711191,
+      "speed_mps": 9.903717041015625,
+      "frame": 88624
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.5547097807917623,
+      "speed_mps": 9.931297302246094,
+      "frame": 88625
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.5594324557341448,
+      "speed_mps": 9.959033012390137,
+      "frame": 88626
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.5625870868104133,
+      "speed_mps": 9.987004280090332,
+      "frame": 88627
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.5673289925481071,
+      "speed_mps": 10.01513385772705,
+      "frame": 88628
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.5705024284079879,
+      "speed_mps": 10.043500900268555,
+      "frame": 88629
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.5752063635020451,
+      "speed_mps": 10.072025299072266,
+      "frame": 88630
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.5783989101766628,
+      "speed_mps": 10.100785255432129,
+      "frame": 88631
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.5831599952743769,
+      "speed_mps": 10.129705429077148,
+      "frame": 88632
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.5863905988234799,
+      "speed_mps": 10.15886402130127,
+      "frame": 88633
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 8.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.5911136803671201,
+      "speed_mps": 10.188182830810547,
+      "frame": 88634
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.2194431715160439,
+      "speed_mps": 11.370813369750977,
+      "frame": 88744
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.6161137919039277,
+      "speed_mps": 11.30984115600586,
+      "frame": 88745
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.1683640995024394,
+      "speed_mps": 11.229034423828125,
+      "frame": 88746
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.5792636355595835,
+      "speed_mps": 11.170616149902344,
+      "frame": 88747
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.1228357930577642,
+      "speed_mps": 11.091652870178223,
+      "frame": 88748
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.546819693646354,
+      "speed_mps": 11.035511016845703,
+      "frame": 88749
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.081350992075548,
+      "speed_mps": 10.958169937133789,
+      "frame": 88750
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.517618334123093,
+      "speed_mps": 10.904102325439453,
+      "frame": 88751
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.0427465231410582,
+      "speed_mps": 10.82822036743164,
+      "frame": 88752
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.4908012081082216,
+      "speed_mps": 10.776082992553711,
+      "frame": 88753
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.0065450719449367,
+      "speed_mps": 10.701542854309082,
+      "frame": 88754
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.465758074955322,
+      "speed_mps": 10.651215553283691,
+      "frame": 88755
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -0.9723846124883588,
+      "speed_mps": 10.577927589416504,
+      "frame": 88756
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.4423359017335746,
+      "speed_mps": 10.529308319091797,
+      "frame": 88757
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -0.9400170721098962,
+      "speed_mps": 10.457191467285156,
+      "frame": 88758
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.420248962105384,
+      "speed_mps": 10.410189628601074,
+      "frame": 88759
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -0.909270797589113,
+      "speed_mps": 10.339177131652832,
+      "frame": 88760
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.3994782430238626,
+      "speed_mps": 10.293713569641113,
+      "frame": 88761
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -0.8799930701967708,
+      "speed_mps": 10.223739624023438,
+      "frame": 88762
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.3798325949623376,
+      "speed_mps": 10.179739952087402,
+      "frame": 88763
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -0.8521459232209082,
+      "speed_mps": 10.110748291015625,
+      "frame": 88764
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.3612742165053988,
+      "speed_mps": 10.068140983581543,
+      "frame": 88765
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -0.8255194193578744,
+      "speed_mps": 10.000076293945312,
+      "frame": 88766
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.3437648924413492,
+      "speed_mps": 9.958800315856934,
+      "frame": 88767
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -0.8001707725715356,
+      "speed_mps": 9.89161205291748,
+      "frame": 88768
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.3270949571382298,
+      "speed_mps": 9.851603507995605,
+      "frame": 88769
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -0.7759474539226834,
+      "speed_mps": 9.785248756408691,
+      "frame": 88770
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.3113593958660454,
+      "speed_mps": 9.746451377868652,
+      "frame": 88771
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -0.7528305513558655,
+      "speed_mps": 9.680883407592773,
+      "frame": 88772
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.2964248228748982,
+      "speed_mps": 9.643240928649902,
+      "frame": 88773
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -0.7306672116344243,
+      "speed_mps": 9.57841968536377,
+      "frame": 88774
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.2822724264559282,
+      "speed_mps": 9.541886329650879,
+      "frame": 88775
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -0.7094956886644945,
+      "speed_mps": 9.477773666381836,
+      "frame": 88776
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -1.2688638219833637,
+      "speed_mps": 9.44229793548584,
+      "frame": 88777
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -0.6892206204942168,
+      "speed_mps": 9.378854751586914,
+      "frame": 88778
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -0.8601191531911117,
+      "speed_mps": 9.344393730163574,
+      "frame": 88779
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": 0.19517869329360824,
+      "speed_mps": 9.301387786865234,
+      "frame": 88780
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -2.486020706072078,
+      "speed_mps": 9.31114673614502,
+      "frame": 88781
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -6.16039691830956,
+      "speed_mps": 9.186845779418945,
+      "frame": 88782
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": -1.0,
+      "measured_mps2": -5.388308416380343,
+      "speed_mps": 8.878825187683105,
+      "frame": 88783
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.2840811969525162,
+      "speed_mps": 12.31265640258789,
+      "frame": 88893
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.5694592113438235,
+      "speed_mps": 12.298452377319336,
+      "frame": 88894
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.262852330765303,
+      "speed_mps": 12.269978523254395,
+      "frame": 88895
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.5537616439820279,
+      "speed_mps": 12.256836891174316,
+      "frame": 88896
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.24515209766833934,
+      "speed_mps": 12.229147911071777,
+      "frame": 88897
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.540848854812064,
+      "speed_mps": 12.216891288757324,
+      "frame": 88898
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.22964530771232078,
+      "speed_mps": 12.189848899841309,
+      "frame": 88899
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.5293856547571705,
+      "speed_mps": 12.178366661071777,
+      "frame": 88900
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.21528294982221763,
+      "speed_mps": 12.151897430419922,
+      "frame": 88901
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.5188570927573558,
+      "speed_mps": 12.141132354736328,
+      "frame": 88902
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.20174074831287275,
+      "speed_mps": 12.115189552307129,
+      "frame": 88903
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.5088816324298816,
+      "speed_mps": 12.1051025390625,
+      "frame": 88904
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.18877074607839164,
+      "speed_mps": 12.079658508300781,
+      "frame": 88905
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.49934490503472584,
+      "speed_mps": 12.070219993591309,
+      "frame": 88906
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.17629666708087985,
+      "speed_mps": 12.045252799987793,
+      "frame": 88907
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.49013239473263664,
+      "speed_mps": 12.03643798828125,
+      "frame": 88908
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.16428031603497512,
+      "speed_mps": 12.011931419372559,
+      "frame": 88909
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.4812441252586121,
+      "speed_mps": 12.003717422485352,
+      "frame": 88910
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.1526264053528937,
+      "speed_mps": 11.979655265808105,
+      "frame": 88911
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.47254658836916386,
+      "speed_mps": 11.972023010253906,
+      "frame": 88912
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.14116321906933027,
+      "speed_mps": 11.948396682739258,
+      "frame": 88913
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.4640779421751375,
+      "speed_mps": 11.941338539123535,
+      "frame": 88914
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.13004334982117324,
+      "speed_mps": 11.918134689331055,
+      "frame": 88915
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.45578095118143036,
+      "speed_mps": 11.911632537841797,
+      "frame": 88916
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.11934311672048022,
+      "speed_mps": 11.888843536376953,
+      "frame": 88917
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.4477510205097312,
+      "speed_mps": 11.8828763961792,
+      "frame": 88918
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.10896711446823198,
+      "speed_mps": 11.860488891601562,
+      "frame": 88919
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.44006439637613876,
+      "speed_mps": 11.855040550231934,
+      "frame": 88920
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.09902980428592288,
+      "speed_mps": 11.833037376403809,
+      "frame": 88921
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.43270200658656094,
+      "speed_mps": 11.828084945678711,
+      "frame": 88922
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.08935952918451227,
+      "speed_mps": 11.806450843811035,
+      "frame": 88923
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.42553035877661155,
+      "speed_mps": 11.801982879638672,
+      "frame": 88924
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.08010886476945478,
+      "speed_mps": 11.780706405639648,
+      "frame": 88925
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.41868296168717273,
+      "speed_mps": 11.776700019836426,
+      "frame": 88926
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.07108709125770407,
+      "speed_mps": 11.755766868591309,
+      "frame": 88927
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.4120453721082779,
+      "speed_mps": 11.752211570739746,
+      "frame": 88928
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.06250400320230273,
+      "speed_mps": 11.731610298156738,
+      "frame": 88929
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.40563665954572986,
+      "speed_mps": 11.728485107421875,
+      "frame": 88930
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.054149796975030424,
+      "speed_mps": 11.708203315734863,
+      "frame": 88931
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 0.0,
+      "measured_mps2": -0.3994568605149402,
+      "speed_mps": 11.705495834350586,
+      "frame": 88932
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.6551585104720957,
+      "speed_mps": 13.307711601257324,
+      "frame": 89042
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.6622477691110383,
+      "speed_mps": 13.340469360351562,
+      "frame": 89043
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.6719052256496751,
+      "speed_mps": 13.373581886291504,
+      "frame": 89044
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.6782508643820697,
+      "speed_mps": 13.407177925109863,
+      "frame": 89045
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.6839407839750983,
+      "speed_mps": 13.441089630126953,
+      "frame": 89046
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.6882075581102295,
+      "speed_mps": 13.475287437438965,
+      "frame": 89047
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.6918943797590936,
+      "speed_mps": 13.509696960449219,
+      "frame": 89048
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.6949216401397317,
+      "speed_mps": 13.544292449951172,
+      "frame": 89049
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.6978070626097703,
+      "speed_mps": 13.579038619995117,
+      "frame": 89050
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7003578214745985,
+      "speed_mps": 13.61392879486084,
+      "frame": 89051
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7028613815171204,
+      "speed_mps": 13.648946762084961,
+      "frame": 89052
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.705202691418511,
+      "speed_mps": 13.684089660644531,
+      "frame": 89053
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7075914221517923,
+      "speed_mps": 13.71934986114502,
+      "frame": 89054
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7098758877332446,
+      "speed_mps": 13.754729270935059,
+      "frame": 89055
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7122070566099407,
+      "speed_mps": 13.790223121643066,
+      "frame": 89056
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7144727296888229,
+      "speed_mps": 13.825834274291992,
+      "frame": 89057
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7168417262604458,
+      "speed_mps": 13.861557960510254,
+      "frame": 89058
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7191459001532253,
+      "speed_mps": 13.89739990234375,
+      "frame": 89059
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7214764021157688,
+      "speed_mps": 13.933357238769531,
+      "frame": 89060
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7238191038781859,
+      "speed_mps": 13.969430923461914,
+      "frame": 89061
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7261110851025254,
+      "speed_mps": 14.005621910095215,
+      "frame": 89062
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7284923179432409,
+      "speed_mps": 14.041927337646484,
+      "frame": 89063
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7308410700337599,
+      "speed_mps": 14.078351974487305,
+      "frame": 89064
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7331273783717057,
+      "speed_mps": 14.114893913269043,
+      "frame": 89065
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7355138156418849,
+      "speed_mps": 14.15155029296875,
+      "frame": 89066
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7378577664742162,
+      "speed_mps": 14.188326835632324,
+      "frame": 89067
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7401675535441068,
+      "speed_mps": 14.225218772888184,
+      "frame": 89068
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7423784469190499,
+      "speed_mps": 14.262228012084961,
+      "frame": 89069
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7445160845818238,
+      "speed_mps": 14.299346923828125,
+      "frame": 89070
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7465938772313778,
+      "speed_mps": 14.336572647094727,
+      "frame": 89071
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7486548441858002,
+      "speed_mps": 14.373902320861816,
+      "frame": 89072
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.750790284256003,
+      "speed_mps": 14.411334991455078,
+      "frame": 89073
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.752850794528104,
+      "speed_mps": 14.448874473571777,
+      "frame": 89074
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7548911726988808,
+      "speed_mps": 14.486516952514648,
+      "frame": 89075
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7570086807935179,
+      "speed_mps": 14.524261474609375,
+      "frame": 89076
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7591256364610308,
+      "speed_mps": 14.562111854553223,
+      "frame": 89077
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7613764516756211,
+      "speed_mps": 14.600068092346191,
+      "frame": 89078
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7636460743586442,
+      "speed_mps": 14.638137817382812,
+      "frame": 89079
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7660685279207624,
+      "speed_mps": 14.67632007598877,
+      "frame": 89080
+    },
+    {
+      "mode": "calibrated",
+      "initial_speed_mps": 12.0,
+      "request_mps2": 1.0,
+      "measured_mps2": 0.7684716898471888,
+      "speed_mps": 14.714622497558594,
+      "frame": 89081
+    }
+  ]
+}

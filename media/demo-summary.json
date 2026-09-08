@@ -1,0 +1,260 @@
+{
+  "artifact_class": "evaluation_trial",
+  "backend": "carla",
+  "condition_id": "clear_noon",
+  "condition_sha256": "a11f1fc1fddaa4579a727810af6a22ad812ffd3b4dc978bb5ef721afcf64a583",
+  "controller": "openpilot",
+  "execution_index": null,
+  "experiment": "urban_suite",
+  "experiment_sha256": "701694c1e401833feb03baed1e5fe0b1a83b389093308ca68fda0e0c9c0119fe",
+  "invalid_reason": "untested_or_dirty_openpilot",
+  "metrics": {
+    "comfort": {
+      "max_abs_lateral_acceleration_mps2": 2.398437118802655,
+      "max_abs_longitudinal_acceleration_mps2": 11.264001750297,
+      "p95_abs_jerk_mps3": 2.3360484605846517,
+      "rms_jerk_mps3": 1.6904667995452907,
+      "rms_lateral_acceleration_mps2": 1.190926011897349,
+      "rms_longitudinal_acceleration_mps2": 0.7995240177216423
+    },
+    "compliance": {
+      "red_light_violations": 0,
+      "speeding_events": 2,
+      "stop_sign_violations": 0
+    },
+    "criteria": {
+      "collisions": {
+        "operator": "<=",
+        "pass": true,
+        "threshold": 0,
+        "value": 0
+      },
+      "comfort_jerk": {
+        "operator": "<=",
+        "pass": true,
+        "threshold": 5.0,
+        "value": 1.6904667995452907
+      },
+      "control_latency": {
+        "operator": "<=",
+        "pass": true,
+        "threshold": 100,
+        "value": 11.568106099999998
+      },
+      "controller_active": {
+        "operator": ">=",
+        "pass": true,
+        "threshold": 0.99,
+        "value": 1.0
+      },
+      "controller_disengagements": {
+        "operator": "<=",
+        "pass": true,
+        "threshold": 0,
+        "value": 0
+      },
+      "lane_invasions": {
+        "operator": "<=",
+        "pass": false,
+        "threshold": 0,
+        "value": 3
+      },
+      "lateral_error": {
+        "operator": "<=",
+        "pass": false,
+        "threshold": 1.0,
+        "value": 2.354055855699867
+      },
+      "minimum_ttc": {
+        "operator": ">=",
+        "pass": true,
+        "threshold": 1.0,
+        "value": null
+      },
+      "offroad_duration": {
+        "operator": "<=",
+        "pass": false,
+        "threshold": 0.1,
+        "value": 1.750000026077032
+      },
+      "red_light_compliance": {
+        "operator": "<=",
+        "pass": true,
+        "threshold": 0,
+        "value": 0
+      },
+      "route_completion": {
+        "operator": ">=",
+        "pass": true,
+        "threshold": 0.99,
+        "value": 1.0
+      },
+      "stop_sign_compliance": {
+        "operator": "<=",
+        "pass": true,
+        "threshold": 0,
+        "value": 0
+      }
+    },
+    "intervention_free_success": false,
+    "lane_keeping": {
+      "mae_lateral_error_m": 0.6003604048261421,
+      "max_abs_lateral_error_m": 2.354055855699867,
+      "mean_lateral_error_m": 0.2535155847179241,
+      "rmse_lateral_error_m": 0.9223478391538713
+    },
+    "mission": {
+      "distance_m": 309.90924867692723,
+      "duration_s": 34.450000513345,
+      "mean_speed_mps": 8.991708568086416,
+      "route_completion": 1.0
+    },
+    "quality_pass": false,
+    "safety": {
+      "collision_count": 0,
+      "collision_event_count": 0,
+      "hard_braking_episodes": 0,
+      "lane_invasion_count": 3,
+      "max_collision_impulse_ns": 0.0,
+      "min_ttc_s": null,
+      "near_miss_count": 0,
+      "offroad_duration_s": 1.750000026077032,
+      "offroad_episode_count": 1
+    },
+    "speed_tracking": {
+      "mae_mps": 2.118291431913583,
+      "mean_error_mps": -2.118291431913583,
+      "overspeed_duration_s": 21.200000315904617,
+      "rmse_mps": 2.7612552029591138
+    },
+    "success": false,
+    "system": {
+      "control_latency_max_ms": 29.082009,
+      "control_latency_p50_ms": 8.506275500000001,
+      "control_latency_p95_ms": 11.568106099999998,
+      "controller_active_fraction": 1.0,
+      "controller_disengagement_count": 0,
+      "evaluation_sample_count": 690,
+      "nominal_dt_s": 0.05000000074505806,
+      "sample_count": 690
+    }
+  },
+  "order_seed": null,
+  "repetition": 1,
+  "run_id": "lane_following__clear_noon__openpilot__r01__s41000",
+  "runtime": {
+    "camera_dropped_frames": 0,
+    "camera_frame_mapping": "events.jsonl camera_frame_handoff: CARLA frame -> OpenPilot camera frameId",
+    "camera_handoff_count": 809,
+    "camera_timeouts": 0,
+    "carla_client_version": "0.9.16",
+    "carla_server_version": "0.9.16",
+    "close_reason": "bridge terminated",
+    "dashboard": {
+      "enabled": true,
+      "host": "127.0.0.1",
+      "port": 8765
+    },
+    "evaluation_origin_alignment": {
+      "ego_heading_deg": -89.744873046875,
+      "heading_error_deg": 0.0140380859375,
+      "is_junction": false,
+      "lane_heading_deg": 270.2410888671875,
+      "lateral_offset_m": 0.01185216215542706,
+      "maximum_heading_error_deg": 10.0,
+      "maximum_lateral_offset_m": 0.75,
+      "reasons": [],
+      "speed_mps": 2.376427095830768,
+      "valid": true
+    },
+    "evaluation_start_frame": 130828,
+    "last_carla_camera_frame": 131517,
+    "last_openpilot_camera_frame_id": 808,
+    "last_synchronized_imu_frame": 131517,
+    "latency_definition": "camera-release to next updated carControl message",
+    "maximum_wheel_angle_deg": 69.99999237060547,
+    "post_reset_applied_car_control_mono_time": 57249704499,
+    "post_reset_control_lineage": {
+      "controls_state_mono_time": 57249631499,
+      "longitudinal_plan_mono_time": 57244483611,
+      "model_frame_id": 118,
+      "model_frame_id_extra": 118,
+      "model_mono_time": 57243124314,
+      "reason": "causal_lineage_verified",
+      "selected_car_control_mono_time": 57249704499,
+      "target_camera_frame_id": 118,
+      "valid": true
+    },
+    "post_reset_fresh_control_applied": true,
+    "post_reset_last_acceleration_norm_mps2": 9.931839551573228,
+    "post_reset_last_gyroscope_norm_rad_s": 0.0020183601995850606,
+    "post_reset_localization_ready": true,
+    "post_reset_required_sane_imu_ticks": 2,
+    "post_reset_required_ticks": 2,
+    "post_reset_sane_imu_ticks": 2,
+    "post_reset_settling_ticks": 2,
+    "post_reset_speed_mps": 2.2492208838040453,
+    "recorder_collision_audit": {
+      "ego_collision_entries": 0,
+      "evaluation_collision_entries": 0,
+      "events_added_from_recorder": 0,
+      "mapped_world_frames": 829,
+      "post_reset_collision_entries": 0,
+      "raw_collision_entries": 0,
+      "recorder_frames": 829,
+      "server_file_retained": false,
+      "server_filename": "opencarla_eval_integrity.rec",
+      "valid": true
+    },
+    "route_origin_progress_m": 0.0,
+    "scenario_realization": {
+      "measured": {
+        "background_requested": 8,
+        "background_spawned": 8,
+        "triggered": false
+      },
+      "reasons": [],
+      "valid": true
+    },
+    "spectator_follow_configured": true,
+    "spectator_follow_enabled": true,
+    "startup_camera_discarded_frames": 40,
+    "steering_ratio": 15.0,
+    "world_last_frame": 131517
+  },
+  "runtime_config_sha256": "7bed5d77578a4837c438c2707ec9a64a521fb754671eb0ad6170ccf4b62ea2d0",
+  "runtime_effective_sha256": "eed33387a2e85137676cdd26ed3a0772d33aacd84fe32d45b6573c7dd541e110",
+  "scenario_id": "lane_following",
+  "scenario_kind": "lane_following",
+  "scenario_sha256": "bba130ecddde14527406c41e48b87a7ee206ff069d9c382cee1aa288fbb8d8e4",
+  "schema_version": 1,
+  "seed": 41000,
+  "software": {
+    "bridge": "opencarla-eval current-World port",
+    "carla_client": "0.9.16",
+    "carla_server": "0.9.16",
+    "openpilot_commit": "4df40d2c1946a57242230186edd073c4073060a6",
+    "openpilot_target": "v0.11.1",
+    "openpilot_worktree_dirty": true,
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.13",
+    "toolkit_commit": null,
+    "toolkit_worktree_dirty": null
+  },
+  "termination_reason": "route_completed",
+  "thresholds": {
+    "max_abs_lateral_error_m": 1.0,
+    "max_collisions": 0,
+    "max_controller_disengagements": 0,
+    "max_lane_invasions": 0,
+    "max_offroad_duration_s": 0.1,
+    "max_p95_control_latency_ms": 100,
+    "max_red_light_violations": 0,
+    "max_rms_jerk_mps3": 5.0,
+    "max_stop_sign_violations": 0,
+    "min_controller_active_fraction": 0.99,
+    "min_route_completion": 0.99,
+    "min_ttc_s": 1.0
+  },
+  "valid_for_research": false
+}

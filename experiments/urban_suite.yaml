@@ -1,0 +1,36 @@
+schema_version: 1
+experiment:
+  name: urban_suite
+  description: >-
+    Paired-seed evaluation of OpenPilot and CARLA Traffic Manager across seven
+    controlled urban scenario families and three environmental conditions.
+  scenarios:
+    - ../scenarios/lane_following.yaml
+    - ../scenarios/lead_vehicle_braking.yaml
+    - ../scenarios/pedestrian_crossing.yaml
+    - ../scenarios/vehicle_cut_in.yaml
+    - ../scenarios/signalized_intersection.yaml
+    - ../scenarios/parked_vehicle_obstruction.yaml
+    - ../scenarios/adverse_weather_lane_following.yaml
+  controllers:
+    - openpilot
+    - traffic_manager
+  conditions:
+    - id: clear_noon
+      weather: ClearNoon
+      traffic_vehicles: 8
+      traffic_walkers: 0
+      friction: 1.0
+    - id: clear_night
+      weather: ClearNight
+      traffic_vehicles: 8
+      traffic_walkers: 0
+      friction: 1.0
+    - id: rainy_daylight
+      weather: HardRainNoon
+      traffic_vehicles: 8
+      traffic_walkers: 0
+      friction: 0.8
+  repetitions: 10
+  base_seed: 41000
+  output_dir: ../results/urban_suite

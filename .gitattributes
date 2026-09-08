@@ -1,0 +1,10 @@
+* text=auto
+*.sh text eol=lf
+*.py text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+# Preserve exact bytes for recorded measurements and hashed calibration profiles.
+*.jsonl -text
+config/calibration/*.json -text
+*.mp4 binary
+*.jpg binary

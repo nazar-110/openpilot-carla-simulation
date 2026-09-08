@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Simulation artifacts are intentionally not versioned.
+results/
+reports/generated/
+reports/environment/
+*.log
+*.rec
+
+# Local machine configuration.
+.env
+.env.*
+*.pem
+*.key
+.idea/
+.vscode/

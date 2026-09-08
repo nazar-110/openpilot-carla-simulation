@@ -1,0 +1,34 @@
+schema_version: 1
+scenario:
+  id: adverse_weather_lane_following
+  name: Degraded-visibility lane following
+  kind: adverse_weather_lane_following
+  description: >-
+    Repeats marked-lane tracking under the experiment's environmental condition.
+    The rainy level bundles camera rendering with explicitly reduced vehicle
+    friction because CARLA weather does not change road physics by itself.
+  map: Town10HD_Opt
+  duration_s: 40
+  route_length_m: 280
+  target_speed_mps: 11.11
+  parameters:
+    require_heading_change_deg: 15
+    minimum_junction_clearance_m: 160
+    warmup_active_s: 1
+    startup_target_speed_mps: 5
+    startup_max_throttle: 0.35
+    stuck_timeout_s: 5
+    terminate_on_collision: true
+  thresholds:
+    max_collisions: 0
+    max_lane_invasions: 0
+    max_abs_lateral_error_m: 1.0
+    max_offroad_duration_s: 0.1
+    min_route_completion: 0.99
+    min_ttc_s: 1.0
+    max_rms_jerk_mps3: 5.0
+    max_p95_control_latency_ms: 100
+    max_red_light_violations: 0
+    max_stop_sign_violations: 0
+    max_controller_disengagements: 0
+    min_controller_active_fraction: 0.99

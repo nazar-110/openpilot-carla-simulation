@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "opencarla-eval"
+version = "0.1.0"
+description = "Reproducible evaluation of OpenPilot in realistic CARLA urban driving scenarios"
+readme = "README.md"
+requires-python = ">=3.12.3,<3.13"
+license = {text = "MIT"}
+authors = [{name = "OpenPilot CARLA Evaluation Project"}]
+dependencies = [
+  "numpy>=2.0,<3",
+  "Pillow>=10,<13",
+  "PyYAML>=6.0.2,<7",
+]
+
+[project.optional-dependencies]
+carla = ["carla==0.9.16"]
+analysis = [
+  "matplotlib>=3.9,<4",
+  "pandas>=2.2,<4",
+]
+dev = [
+  "pytest>=8.3,<10",
+  "pytest-cov>=6,<8",
+  "ruff>=0.11,<1",
+]
+
+[project.scripts]
+opencarla-eval = "opencarla_eval.cli:main"
+opencarla-openpilot = "opencarla_eval.openpilot_bridge:main"
+opencarla-baseline = "opencarla_eval.carla_baseline:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+opencarla_eval = ["dashboard.html"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+indent-width = 2
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+ignore = ["E501"]

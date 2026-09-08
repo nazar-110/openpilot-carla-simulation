@@ -1,0 +1,19 @@
+schema_version: 1
+experiment:
+  name: smoke
+  description: Fast pipeline check; synthetic outputs are not research results.
+  scenarios:
+    - ../scenarios/lane_following.yaml
+    - ../scenarios/lead_vehicle_braking.yaml
+  controllers:
+    - synthetic
+  conditions:
+    - id: clear_noon
+      weather: ClearNoon
+      traffic_vehicles: 0
+      traffic_walkers: 0
+      friction: 1.0
+  repetitions: 2
+  base_seed: 9000
+  output_dir: ../results/smoke
+

@@ -1,0 +1,30 @@
+schema_version: 1
+scenario:
+  id: parked_vehicle_obstruction
+  name: Partially obstructing parked vehicle
+  kind: parked_vehicle_obstruction
+  description: >-
+    A stationary vehicle is placed partly inside the travel lane, creating a
+    visible urban obstruction without an artificial radar target.
+  map: Town10HD_Opt
+  duration_s: 35
+  route_length_m: 180
+  target_speed_mps: 11.11
+  parameters:
+    warmup_active_s: 5
+    obstacle_distance_m: 45
+    obstacle_lateral_offset_m: 1.1
+    terminate_on_collision: true
+  thresholds:
+    max_collisions: 0
+    max_lane_invasions: 1
+    max_abs_lateral_error_m: 1.5
+    max_offroad_duration_s: 0.1
+    min_route_completion: 0.99
+    min_ttc_s: 0.5
+    max_rms_jerk_mps3: 8.0
+    max_p95_control_latency_ms: 100
+    max_red_light_violations: 0
+    max_stop_sign_violations: 0
+    max_controller_disengagements: 0
+    min_controller_active_fraction: 0.99

@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OpenPilot Live Decisions</title>
+  <style>
+    :root { color-scheme: dark; --bg:#071019; --panel:#0d1924; --line:#203242; --text:#eef6fb; --muted:#8fa8ba; --cyan:#35d7ff; --green:#45e39a; --amber:#ffbd59; --red:#ff5f68; --violet:#b48cff; }
+    * { box-sizing:border-box; }
+    body { margin:0; min-width:1100px; background:radial-gradient(circle at 20% 0%,#122536 0,var(--bg) 42%); color:var(--text); font:14px/1.4 "Segoe UI",sans-serif; }
+    header { height:68px; display:flex; align-items:center; gap:18px; padding:0 22px; border-bottom:1px solid var(--line); background:#08131dcc; backdrop-filter:blur(14px); position:sticky; top:0; z-index:5; }
+    h1 { margin:0; font-size:19px; letter-spacing:.02em; }
+    .subtitle { color:var(--muted); font-size:12px; }
+    .spacer { flex:1; }
+    .pill { display:inline-flex; align-items:center; gap:7px; padding:7px 11px; border:1px solid var(--line); border-radius:999px; font-size:12px; font-weight:650; text-transform:uppercase; letter-spacing:.06em; }
+    .dot { width:8px; height:8px; border-radius:50%; background:var(--amber); box-shadow:0 0 12px currentColor; }
+    .pill.live .dot { background:var(--green); }
+    .pill.lost .dot { background:var(--red); }
+    main { padding:16px; display:grid; grid-template-columns:minmax(620px,1.6fr) minmax(420px,1fr); gap:14px; }
+    .panel { background:linear-gradient(145deg,#0e1c28e8,#0a151fee); border:1px solid var(--line); border-radius:14px; overflow:hidden; box-shadow:0 16px 40px #0005; }
+    .panel-title { min-height:44px; padding:11px 14px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid var(--line); font-size:12px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:#bcd0dd; }
+    .feed { position:relative; min-height:420px; background:#020506; display:grid; place-items:center; }
+    .road-stage { position:relative; width:100%; z-index:1; }
+    .road-stage img { width:100%; height:auto; display:block; }
+    #roadOverlay { position:absolute; inset:0; width:100%; height:100%; display:block; pointer-events:none; background:transparent; z-index:2; }
+    .feed .waiting { position:absolute; color:var(--muted); letter-spacing:.05em; }
+    .feed img.wide { position:absolute; right:14px; bottom:14px; width:31%; height:auto; display:block; border:2px solid #cfeeff; border-radius:8px; box-shadow:0 8px 24px #000b; background:#000; z-index:3; }
+    .wide-label { position:absolute; right:16px; bottom:calc(14px + min(15vw,130px)); padding:4px 7px; background:#06111ddd; border-radius:5px; font-size:10px; font-weight:700; z-index:4; }
+    .feed-meta { padding:10px 14px; color:var(--muted); display:flex; gap:18px; border-top:1px solid var(--line); }
+    .right-stack { display:grid; gap:14px; align-content:start; }
+    canvas { width:100%; display:block; background:linear-gradient(#07121b,#081018); }
+    #planCanvas { height:330px; }
+    #longCanvas { height:190px; }
+    .legend { padding:9px 12px; display:flex; flex-wrap:wrap; gap:12px; color:var(--muted); font-size:11px; border-top:1px solid var(--line); }
+    .legend i { width:18px; height:3px; display:inline-block; vertical-align:middle; margin-right:5px; border-radius:2px; }
+    .cards { grid-column:1 / -1; display:grid; grid-template-columns:repeat(6,minmax(150px,1fr)); gap:10px; }
+    .card { min-height:104px; padding:13px; border:1px solid var(--line); border-radius:12px; background:#0b1721dd; }
+    .card .label { color:var(--muted); font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:.08em; }
+    .card .value { margin-top:7px; font-size:24px; font-weight:720; font-variant-numeric:tabular-nums; }
+    .card .detail { margin-top:5px; color:#abc0ce; font-size:11px; min-height:15px; }
+    .warning { grid-column:1 / -1; border:1px solid #7d6530; border-radius:10px; padding:10px 13px; color:#e8d39c; background:#251e0eaa; font-size:12px; }
+    .alert { color:var(--red)!important; }
+    @media(max-width:1250px){ .cards{grid-template-columns:repeat(3,1fr);} }
+  </style>
+</head>
+<body>
+  <header>
+    <div><h1>OpenPilot Live Decisions</h1><div class="subtitle">CARLA software-in-the-loop · read-only diagnostics</div></div>
+    <div class="spacer"></div>
+    <div id="phase" class="pill"><span class="dot"></span><span>starting</span></div>
+    <div id="connection" class="pill"><span class="dot"></span><span>connecting</span></div>
+  </header>
+  <main>
+    <section class="panel">
+      <div class="panel-title"><span>OpenPilot camera input + predicted path</span><span id="frameLabel">waiting for frame</span></div>
+      <div class="feed"><span class="waiting" id="waiting">Waiting for synchronized camera handoff…</span><div class="road-stage"><img id="road" alt="OpenPilot road camera"><canvas id="roadOverlay" aria-label="OpenPilot predicted path overlay"></canvas></div><img id="wide" class="wide" alt="OpenPilot wide road camera"><span class="wide-label">WIDE ROAD</span></div>
+      <div class="feed-meta"><span>The JPEG is the exact downsampled camerad input; the translucent green ribbon is modelV2’s predicted path projected back into that camera.</span></div>
+    </section>
+    <div class="right-stack">
+      <section class="panel">
+        <div class="panel-title"><span>OpenPilot predicted path</span><span id="modelFrame">model —</span></div>
+        <canvas id="planCanvas"></canvas>
+        <div class="legend"><span><i style="background:var(--cyan)"></i>trajectory</span><span><i style="background:#fff"></i>lane lines</span><span><i style="background:var(--amber)"></i>road edges</span><span><i style="background:var(--red)"></i>lead</span></div>
+      </section>
+      <section class="panel">
+        <div class="panel-title"><span>Longitudinal trajectory · next 2.5 s</span><span id="planSource">source —</span></div>
+        <canvas id="longCanvas"></canvas>
+        <div class="legend"><span><i style="background:var(--green)"></i>planned speed</span><span><i style="background:var(--violet)"></i>planned acceleration</span></div>
+      </section>
+    </div>
+    <div class="warning">OpenPilot receives no destination or map route in this harness. The geometry above is its learned camera-based predicted trajectory; the lower graph is the planner’s longitudinal decision.</div>
+    <section class="cards">
+      <div class="card"><div class="label">OpenPilot state</div><div class="value" id="opState">—</div><div class="detail" id="opDetail">waiting</div></div>
+      <div class="card"><div class="label">Actual speed</div><div class="value" id="speed">—</div><div class="detail" id="speedDetail">target —</div></div>
+      <div class="card"><div class="label">Final steering</div><div class="value" id="steer">—</div><div class="detail" id="curvature">curvature —</div></div>
+      <div class="card"><div class="label">Final acceleration</div><div class="value" id="accel">—</div><div class="detail" id="longState">state —</div></div>
+      <div class="card"><div class="label">Lead decision</div><div class="value" id="lead">—</div><div class="detail" id="leadDetail">no lead</div></div>
+      <div class="card"><div class="label">Model latency</div><div class="value" id="modelTime">—</div><div class="detail" id="latency">control latency —</div></div>
+    </section>
+    <section class="panel" style="grid-column:1/-1"><div class="panel-title"><span>Active alert / decision note</span><span id="simTime">t = —</span></div><div id="alert" style="padding:14px;color:#c7d8e3;min-height:48px">Waiting for OpenPilot…</div></section>
+  </main>
+  <script>
+    const $ = id => document.getElementById(id); let lastState=null,serverSeen=false,stateSequence=null,stateAdvance=performance.now(),cameraFrame=null,cameraOpenpilotFrame=null,cameraAdvance=performance.now(),cameraSeen=false,cameraStale=false;
+    const fmt=(v,d=1)=>Number.isFinite(v)?v.toFixed(d):'—';
+    const scaled=(v,f)=>Number.isFinite(v)?v*f:null;
+    function sizeCanvas(c){const d=devicePixelRatio||1,w=c.clientWidth,h=c.clientHeight;if(c.width!==Math.round(w*d)||c.height!==Math.round(h*d)){c.width=Math.round(w*d);c.height=Math.round(h*d)}const x=c.getContext('2d');x.setTransform(d,0,0,d,0,0);return [x,w,h]}
+    function path(ctx,pts,map,color,width=2,alpha=1){if(!pts||!pts.x?.length)return;ctx.beginPath();let moved=false;for(let i=0;i<Math.min(pts.x.length,pts.y.length);i++){const p=map(pts.x[i],pts.y[i]);if(!p)continue;moved?ctx.lineTo(...p):ctx.moveTo(...p);moved=true}ctx.strokeStyle=color;ctx.globalAlpha=alpha;ctx.lineWidth=width;ctx.stroke();ctx.globalAlpha=1}
+    function drawRoadOverlay(s){const overlay=$('roadOverlay'),road=$('road'),[c,w,h]=sizeCanvas(overlay);c.clearRect(0,0,w,h);const m=s?.model||{},projection=m.camera_projection||{},polygon=m.trajectory_overlay?.polygon_px||[];if(!m.valid||polygon.length<4||!road.complete||!road.naturalWidth||w<=0||h<=0||!Number.isFinite(projection.width_px)||!Number.isFinite(projection.height_px))return;if(Number.isFinite(cameraOpenpilotFrame)&&Number.isFinite(m.frame_id)&&Math.abs(cameraOpenpilotFrame-m.frame_id)>6)return;const sx=w/projection.width_px,sy=h/projection.height_px,points=polygon.filter(p=>Array.isArray(p)&&Number.isFinite(p[0])&&Number.isFinite(p[1])).map(p=>[p[0]*sx,p[1]*sy]);if(points.length<4)return;c.beginPath();points.forEach((p,i)=>i?c.lineTo(...p):c.moveTo(...p));c.closePath();const top=Math.max(0,Math.min(h,...points.map(p=>p[1]))),gradient=c.createLinearGradient(0,h,0,top);gradient.addColorStop(0,'rgba(13,248,122,0.40)');gradient.addColorStop(.5,'rgba(114,255,92,0.35)');gradient.addColorStop(1,'rgba(114,255,92,0)');c.fillStyle=gradient;c.fill()}
+    function drawPlan(s){const [c,w,h]=sizeCanvas($('planCanvas'));c.clearRect(0,0,w,h);const tr=s?.model?.trajectory||{x:[],y:[]};const allX=[...(tr.x||[])],allY=[...(tr.y||[])];for(const p of [...(s?.model?.lane_lines||[]),...(s?.model?.road_edges||[])]){allX.push(...(p.x||[]));allY.push(...(p.y||[]))}const maxX=Math.max(35,...allX.filter(Number.isFinite));const lat=Math.max(6,...allY.filter(Number.isFinite).map(Math.abs));const map=(x,y)=>Number.isFinite(x)&&Number.isFinite(y)?[w/2-y*(w*.44/lat),h-25-x*(h-45)/maxX]:null;c.strokeStyle='#173042';c.lineWidth=1;c.fillStyle='#7490a3';c.font='10px Segoe UI';for(let x=0;x<=maxX;x+=10){const p=map(x,0);c.beginPath();c.moveTo(16,p[1]);c.lineTo(w-16,p[1]);c.stroke();c.fillText(`${x}m`,8,p[1]-3)}for(const p of s?.model?.road_edges||[])path(c,p,map,'#ffbd59',2,.75);for(const p of s?.model?.lane_lines||[])path(c,p,map,'#eef6fb',2,Math.max(.15,Math.min(.85,p.probability??.35)));path(c,tr,map,'#35d7ff',5,1);const lead=(s?.model?.leads||[]).find(l=>(l.probability??0)>.2);if(lead&&Number.isFinite(lead.x_m)&&Number.isFinite(lead.y_m)){const p=map(lead.x_m,lead.y_m);c.fillStyle='#ff5f68';c.beginPath();c.arc(...p,7,0,Math.PI*2);c.fill()}const ego=map(0,0);c.fillStyle='#45e39a';c.beginPath();c.moveTo(ego[0],ego[1]-9);c.lineTo(ego[0]-7,ego[1]+7);c.lineTo(ego[0]+7,ego[1]+7);c.closePath();c.fill()}
+    function drawLong(s){const [c,w,h]=sizeCanvas($('longCanvas'));c.clearRect(0,0,w,h);const vs=s?.planning?.speeds_mps||[],as=s?.planning?.accelerations_mps2||[],ts=s?.planning?.times_s||[],maxT=Math.max(2.5,...ts.filter(Number.isFinite));c.strokeStyle='#173042';for(let i=0;i<5;i++){const y=15+i*(h-30)/4;c.beginPath();c.moveTo(34,y);c.lineTo(w-12,y);c.stroke()}const draw=(a,color,min,max)=>{if(a.length<2)return;c.beginPath();a.forEach((v,i)=>{const t=Number.isFinite(ts[i])?ts[i]:maxT*i/(a.length-1),x=34+t*(w-48)/maxT,y=h-15-(Math.max(min,Math.min(max,v))-min)*(h-30)/(max-min);i?c.lineTo(x,y):c.moveTo(x,y)});c.strokeStyle=color;c.lineWidth=3;c.stroke()};draw(vs,'#45e39a',0,Math.max(15,...vs));draw(as,'#b48cff',-4,3);c.fillStyle='#7893a5';c.font='10px Segoe UI';c.fillText('now',31,h-3);c.fillText(`${fmt(maxT,1)} s`,w-38,h-3)}
+    function connection(mode,label){$('connection').className=`pill ${mode}`;$('connection').querySelector('span:last-child').textContent=label}
+    function render(s){lastState=s;const r=s.runtime||{},m=s.model||{},p=s.planning||{},u=s.selfdrive||{},q=s.control||{},v=s.vehicle||{};if(Number.isFinite(r.state_sequence)&&r.state_sequence!==stateSequence){stateSequence=r.state_sequence;stateAdvance=performance.now()}$('phase').className='pill '+(r.phase==='evaluating'?'live':'');$('phase').querySelector('span:last-child').textContent=r.phase||'starting';$('modelFrame').textContent=`model ${m.frame_id??'—'}`;$('planSource').textContent=`source ${p.source||'—'}`;$('opState').textContent=u.state||'—';$('opDetail').textContent=`lateral ${q.lateral_active?'active':'inactive'} · longitudinal ${q.longitudinal_active?'active':'inactive'}`;$('speed').textContent=`${fmt(scaled(v.speed_mps,3.6),1)} km/h`;$('speedDetail').textContent=`scenario target ${fmt(scaled(r.target_speed_mps,3.6),1)} km/h`;$('steer').textContent=`${fmt(q.command_steering_angle_deg,1)}°`;$('curvature').textContent=`curvature ${fmt(q.command_curvature,5)} 1/m`;$('accel').textContent=`${fmt(q.command_acceleration_mps2,2)} m/s²`;$('longState').textContent=`state ${q.command_long_state||'—'} · plan ${p.source||'—'}`;const lead=(m.leads||[]).find(x=>(x.probability??0)>.2);$('lead').textContent=lead?`${fmt(lead.x_m,1)} m`:'none';$('leadDetail').textContent=lead?`${fmt(scaled(lead.probability,100),0)}% · ${fmt(scaled(lead.speed_mps,3.6),1)} km/h`:(p.has_lead?'planner reports lead':'no lead selected');$('modelTime').textContent=`${fmt(m.execution_time_ms,1)} ms`;$('latency').textContent=`control latency ${fmt(r.control_latency_ms,1)} ms`;$('simTime').textContent=`t = ${fmt(r.sim_time_s,2)} s`;$('alert').textContent=[u.alert_text_1,u.alert_text_2].filter(Boolean).join(' — ')||`Model action: curvature ${fmt(m.action?.desired_curvature,5)}, acceleration ${fmt(m.action?.desired_acceleration_mps2,2)} m/s²`;$('alert').className=(u.alert_text_1||u.alert_text_2)?'alert':'';const required=['modelV2','longitudinalPlan','controlsState','carControl','selfdriveState'],bad=required.find(name=>{const h=r.service_health?.[name];return !h||!h.alive||!h.valid}),rateLow=required.some(name=>r.service_health?.[name]?.frequency_ok===false);if(performance.now()-stateAdvance>2000)connection('lost','state stale');else if(r.dashboard_encoder_ok===false)connection('lost','camera encoder');else if(cameraSeen&&cameraStale)connection('lost','camera stale');else if(m.valid&&!cameraSeen)connection('','camera waiting');else if(bad)connection('',`${bad} waiting`);else if(rateLow)connection('','live · rate below nominal');else connection('live','live');drawRoadOverlay(s);drawPlan(s);drawLong(s)}
+    async function stateLoop(){try{const response=await fetch('/api/state',{cache:'no-store'});if(!response.ok)throw Error();serverSeen=true;render(await response.json())}catch(e){connection('lost',serverSeen?'run ended':'connecting')}finally{setTimeout(stateLoop,100)}}
+    function swapImage(id,blob){const img=$(id),previous=img.dataset.objectUrl,next=URL.createObjectURL(blob);img.onload=()=>{if(previous)URL.revokeObjectURL(previous);img.style.display='block';$('waiting').style.display='none';if(id==='road'&&lastState)drawRoadOverlay(lastState)};img.dataset.objectUrl=next;img.src=next}
+    async function cameraLoop(){try{const token=Date.now(),responses=await Promise.all([fetch(`/camera/road.jpg?t=${token}`,{cache:'no-store'}),fetch(`/camera/wide.jpg?t=${token}`,{cache:'no-store'})]);if(responses.every(r=>r.status===200)){const ids=responses.map(r=>[r.headers.get('X-Carla-Frame'),r.headers.get('X-Openpilot-Frame')]);if(ids[0][0]===ids[1][0]&&ids[0][1]===ids[1][1]){const pair=`${ids[0][0]}:${ids[0][1]}`;if(pair!==cameraFrame){const blobs=await Promise.all(responses.map(r=>r.blob()));cameraFrame=pair;cameraOpenpilotFrame=Number(ids[0][1]);cameraAdvance=performance.now();cameraSeen=true;cameraStale=false;swapImage('road',blobs[0]);swapImage('wide',blobs[1]);$('frameLabel').textContent=`CARLA ${ids[0][0]} · OpenPilot ${ids[0][1]}`}}}}catch(e){}finally{if(cameraSeen&&performance.now()-cameraAdvance>1500)cameraStale=true;if(lastState)render(lastState);setTimeout(cameraLoop,200)}}
+    stateLoop();cameraLoop();addEventListener('resize',()=>lastState&&render(lastState));
+  </script>
+</body>
+</html>

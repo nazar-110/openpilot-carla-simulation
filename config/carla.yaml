@@ -1,0 +1,48 @@
+schema_version: 1
+carla:
+  required_version: "0.9.16"
+  host: "127.0.0.1"
+  port: 2000
+  timeout_s: 20
+  traffic_manager_port: 8000
+  fixed_delta_seconds: 0.05
+  substepping: true
+  max_substep_delta_time: 0.01
+  max_substeps: 10
+  quality_level: Epic
+  ego_blueprint: vehicle.lincoln.mkz_2020
+  role_name: ego_vehicle
+  camera:
+    width: 1928
+    height: 1208
+    road_fov_deg: 40
+    wide_fov_deg: 120
+    sensor_tick_s: 0.05
+    gamma: 2.2
+    mount:
+      x: 1.35
+      y: 0.0
+      z: 1.45
+      pitch: 0.0
+      yaw: 0.0
+      roll: 0.0
+  actuation:
+    steer_sign: -1.0
+    steering_ratio: 15.0
+    fallback_max_wheel_angle_deg: 70.0
+    calibration_profile: calibration/lincoln_mkz_2020.json
+  recording:
+    carla_recorder: false
+  spectator:
+    enabled: true
+    distance_m: 7.0
+    height_m: 3.0
+    pitch_deg: -15.0
+    smoothing_time_s: 0.12
+  dashboard:
+    enabled: false
+    host: 127.0.0.1
+    port: 8765
+    frame_stride: 4
+    downsample: 3
+    jpeg_quality: 82

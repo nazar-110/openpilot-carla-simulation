@@ -1,0 +1,36 @@
+schema_version: 1
+scenario:
+  id: pedestrian_crossing
+  name: Scripted pedestrian crossing
+  kind: pedestrian_crossing
+  description: >-
+    An adult pedestrian walks across the ego lane at 1.4 m/s after a controlled
+    trigger. This is an exploratory boundary test outside OpenPilot's declared
+    pedestrian-handling capability.
+  map: Town10HD_Opt
+  duration_s: 35
+  route_length_m: 180
+  target_speed_mps: 11.11
+  parameters:
+    warmup_active_s: 5
+    crossing_distance_m: 35
+    pedestrian_speed_mps: 1.4
+    trigger_ttc_s: 2.5
+    trigger_min_time_s: 2
+    fallback_trigger_s: 8
+    start_side: right
+    min_pedestrian_travel_m: 2.0
+    terminate_on_collision: true
+  thresholds:
+    max_collisions: 0
+    max_lane_invasions: 0
+    max_abs_lateral_error_m: 1.0
+    max_offroad_duration_s: 0.1
+    min_route_completion: 0.99
+    min_ttc_s: 0.5
+    max_rms_jerk_mps3: 8.0
+    max_p95_control_latency_ms: 100
+    max_red_light_violations: 0
+    max_stop_sign_violations: 0
+    max_controller_disengagements: 0
+    min_controller_active_fraction: 0.99

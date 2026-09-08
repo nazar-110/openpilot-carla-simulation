@@ -1,0 +1,6 @@
+{
+  "source": "real CARLA sensor images, paired to exact modelV2.frameId",
+  "dropped": 0,
+  "error": null,
+  "worker_finished": true
+}
