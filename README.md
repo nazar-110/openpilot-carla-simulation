@@ -1,4 +1,4 @@
-# OpenPilot × CARLA — Urban Driving Evaluation
+# OpenPilot × CARLA — Urban Driving Simulation
 
 A reproducible, frame-synchronous research harness for evaluating OpenPilot in
 CARLA across controlled urban driving scenarios. The project includes a CARLA
