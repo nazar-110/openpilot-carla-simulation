@@ -14,9 +14,9 @@ run-level metrics, paired statistical analysis, tests, and setup automation.
 
 ## Calibrated vehicle controller
 
-[![Watch the real CARLA/OpenPilot demo](media/openpilot-carla-demo.jpg)](https://github.com/nazar-110/openpilot-carla-evaluation/raw/refs/heads/master/media/openpilot-carla-demo.mp4)
+https://github.com/user-attachments/assets/5909a73e-0fed-4d54-ad97-fa0a3ce676ee
 
-**[Watch/download the real 34-second demo](https://github.com/nazar-110/openpilot-carla-evaluation/raw/refs/heads/master/media/openpilot-carla-demo.mp4)**
+Press play above to watch directly on GitHub, or **[download the full-resolution 34-second demo](https://github.com/nazar-110/openpilot-carla-evaluation/raw/refs/heads/master/media/openpilot-carla-demo.mp4)**
 — road-camera predicted path, chase camera, and live controller decisions.
 This prototype completed its route but **failed driving-quality checks**.
 The footage is real, not a synthetic or AI-generated driving demonstration.

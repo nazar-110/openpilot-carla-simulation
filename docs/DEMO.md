@@ -1,5 +1,9 @@
 # Real video demo
 
+The README includes a GitHub-hosted inline video player. Its 1280 × 800 copy is
+compressed for quick playback; the original 1600 × 1000 MP4 remains in `media/`
+and is linked below the player. Both contain the same complete recorded trial.
+
 The committed MP4 contains actual CARLA 0.9.16 road and chase camera pixels
 captured during an OpenPilot-driven trial, not a Traffic Manager replay.
 The road camera is paired with the exact `modelV2.frameId` before the green
